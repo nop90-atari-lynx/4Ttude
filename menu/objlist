@@ -1,0 +1,7 @@
+../menu/marker.o
+../menu/markeron.o
+../menu/menubg1.o
+../menu/menubg2.o
+../menu/menubg3.o
+../menu/select.o
+../menu/menu.o

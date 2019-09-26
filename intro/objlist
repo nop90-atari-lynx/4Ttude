@@ -1,0 +1,11 @@
+../intro/fadein.o
+../intro/fadeout.o
+../intro/title.o
+../intro/nop90.o
+../intro/gerk0.o
+../intro/gerk1.o
+../intro/gerk2.o
+../intro/gerk3.o
+../intro/gerk4.o
+../intro/gerk5.o
+../intro/intro.o

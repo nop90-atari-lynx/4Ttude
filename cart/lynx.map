@@ -1,0 +1,3149 @@
+Modules list:
+-------------
+lnxhdr.o:
+    EXEHDR            Offs=000000  Size=000040  Align=00001  Fill=0000
+directory.o:
+    DIRECTORY         Offs=000000  Size=000078  Align=00001  Fill=0000
+LynxSD.o:
+    CODE              Offs=000000  Size=0002B9  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=000001  Align=00001  Fill=0000
+lynxeeprom.o:
+    CODE              Offs=0002B9  Size=0000F5  Align=00001  Fill=0000
+lynx-snd.o:
+    CODE              Offs=0003AE  Size=00069C  Align=00001  Fill=0000
+    RODATA            Offs=000001  Size=000108  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000226  Align=00001  Fill=0000
+    APPZP             Offs=000000  Size=000007  Align=00001  Fill=0000
+playpcm.o:
+    CODE              Offs=000A4A  Size=000068  Align=00001  Fill=0000
+font.o:
+    RODATA            Offs=000109  Size=000A99  Align=00001  Fill=0000
+text.o:
+    CODE              Offs=000AB2  Size=0001A6  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=0000EF  Align=00001  Fill=0000
+resident.o:
+    CODE              Offs=000C58  Size=000A5C  Align=00001  Fill=0000
+    RODATA            Offs=000BA2  Size=000017  Align=00001  Fill=0000
+    BSS               Offs=000226  Size=0000C2  Align=00001  Fill=0000
+    DATA              Offs=0000EF  Size=00000A  Align=00001  Fill=0000
+fadein.o:
+    CODE              Offs=0016B4  Size=000081  Align=00001  Fill=0000
+fadeout.o:
+    CODE              Offs=001735  Size=000066  Align=00001  Fill=0000
+title.o:
+    INTRO_RODATA      Offs=000000  Size=00125A  Align=00001  Fill=0000
+nop90.o:
+    INTRO_RODATA      Offs=00125A  Size=00095C  Align=00001  Fill=0000
+gerk0.o:
+    INTRO_RODATA      Offs=001BB6  Size=0003E1  Align=00001  Fill=0000
+gerk1.o:
+    INTRO_RODATA      Offs=001F97  Size=000320  Align=00001  Fill=0000
+gerk2.o:
+    INTRO_RODATA      Offs=0022B7  Size=00022E  Align=00001  Fill=0000
+gerk3.o:
+    INTRO_RODATA      Offs=0024E5  Size=000254  Align=00001  Fill=0000
+gerk4.o:
+    INTRO_RODATA      Offs=002739  Size=0002AD  Align=00001  Fill=0000
+gerk5.o:
+    INTRO_RODATA      Offs=0029E6  Size=00023A  Align=00001  Fill=0000
+intro.o:
+    INTRO_DATA        Offs=000000  Size=0000DD  Align=00001  Fill=0000
+    INTRO_CODE        Offs=000000  Size=00065B  Align=00001  Fill=0000
+    INTRO_RODATA      Offs=002C20  Size=000005  Align=00001  Fill=0000
+tutorialbg.o:
+    CREDITS_RODATA    Offs=000000  Size=000DAE  Align=00001  Fill=0000
+creditsbg.o:
+    CREDITS_RODATA    Offs=000DAE  Size=00100C  Align=00001  Fill=0000
+marks.o:
+    CREDITS_RODATA    Offs=001DBA  Size=000165  Align=00001  Fill=0000
+grid.o:
+    CREDITS_RODATA    Offs=001F1F  Size=000E5F  Align=00001  Fill=0000
+pressA.o:
+    CREDITS_RODATA    Offs=002D7E  Size=0000BE  Align=00001  Fill=0000
+tuttxt.o:
+    CREDITS_DATA      Offs=000000  Size=000020  Align=00001  Fill=0000
+    CREDITS_RODATA    Offs=002E3C  Size=000A9A  Align=00001  Fill=0000
+credits.o:
+    CREDITS_DATA      Offs=000020  Size=0003C1  Align=00001  Fill=0000
+    CREDITS_RODATA    Offs=0038D6  Size=000089  Align=00001  Fill=0000
+    CREDITS_CODE      Offs=000000  Size=0011C3  Align=00001  Fill=0000
+marker.o:
+    MENU_RODATA       Offs=000000  Size=00004A  Align=00001  Fill=0000
+markeron.o:
+    MENU_RODATA       Offs=00004A  Size=00004A  Align=00001  Fill=0000
+menubg1.o:
+    MENU_RODATA       Offs=000094  Size=0009C5  Align=00001  Fill=0000
+menubg2.o:
+    MENU_RODATA       Offs=000A59  Size=0009F4  Align=00001  Fill=0000
+menubg3.o:
+    MENU_RODATA       Offs=00144D  Size=000A29  Align=00001  Fill=0000
+select.o:
+    MENU_RODATA       Offs=001E76  Size=001319  Align=00001  Fill=0000
+menu.o:
+    MENU_DATA         Offs=000000  Size=00007B  Align=00001  Fill=0000
+    MENU_RODATA       Offs=00318F  Size=0001ED  Align=00001  Fill=0000
+    MENU_CODE         Offs=000000  Size=000C6E  Align=00001  Fill=0000
+dleft.o:
+    GAME_RODATA       Offs=000000  Size=00004B  Align=00001  Fill=0000
+dright.o:
+    GAME_RODATA       Offs=00004B  Size=000052  Align=00001  Fill=0000
+dot0.o:
+    GAME_RODATA       Offs=00009D  Size=000007  Align=00001  Fill=0000
+dot1.o:
+    GAME_RODATA       Offs=0000A4  Size=000007  Align=00001  Fill=0000
+dot2.o:
+    GAME_RODATA       Offs=0000AB  Size=000007  Align=00001  Fill=0000
+tile1.o:
+    GAME_RODATA       Offs=0000B2  Size=000017  Align=00001  Fill=0000
+tile2.o:
+    GAME_RODATA       Offs=0000C9  Size=000017  Align=00001  Fill=0000
+cursor0.o:
+    GAME_RODATA       Offs=0000E0  Size=000017  Align=00001  Fill=0000
+cursor1.o:
+    GAME_RODATA       Offs=0000F7  Size=000017  Align=00001  Fill=0000
+grid0.o:
+    GAME_RODATA       Offs=00010E  Size=00013F  Align=00001  Fill=0000
+grid1.o:
+    GAME_RODATA       Offs=00024D  Size=00019A  Align=00001  Fill=0000
+gridSmall.o:
+    GAME_RODATA       Offs=0003E7  Size=000071  Align=00001  Fill=0000
+background.o:
+    GAME_RODATA       Offs=000458  Size=00079B  Align=00001  Fill=0000
+game.o:
+    GAME_DATA         Offs=000000  Size=000078  Align=00001  Fill=0000
+    GAME_RODATA       Offs=000BF3  Size=00008B  Align=00001  Fill=0000
+    GAME_BSS          Offs=000000  Size=0003BE  Align=00001  Fill=0000
+    GAME_CODE         Offs=000000  Size=001567  Align=00001  Fill=0000
+comborow.o:
+    GAME_CODE         Offs=001567  Size=000406  Align=00001  Fill=0000
+comboset.o:
+    GAME_CODE         Offs=00196D  Size=00068A  Align=00001  Fill=0000
+gboard.o:
+    GAME_CODE         Offs=001FF7  Size=000392  Align=00001  Fill=0000
+strategy.o:
+    GAME_RODATA       Offs=000C7E  Size=000045  Align=00001  Fill=0000
+    GAME_BSS          Offs=0003BE  Size=0003E8  Align=00001  Fill=0000
+    GAME_CODE         Offs=002389  Size=00123B  Align=00001  Fill=0000
+vset.o:
+    GAME_CODE         Offs=0035C4  Size=0006C6  Align=00001  Fill=0000
+dleft2.o:
+    GAME2P_RODATA     Offs=000000  Size=00004B  Align=00001  Fill=0000
+dright2.o:
+    GAME2P_RODATA     Offs=00004B  Size=000052  Align=00001  Fill=0000
+dot02.o:
+    GAME2P_RODATA     Offs=00009D  Size=000007  Align=00001  Fill=0000
+dot12.o:
+    GAME2P_RODATA     Offs=0000A4  Size=000007  Align=00001  Fill=0000
+dot22.o:
+    GAME2P_RODATA     Offs=0000AB  Size=000007  Align=00001  Fill=0000
+tile12.o:
+    GAME2P_RODATA     Offs=0000B2  Size=000017  Align=00001  Fill=0000
+tile22.o:
+    GAME2P_RODATA     Offs=0000C9  Size=000017  Align=00001  Fill=0000
+cursor02.o:
+    GAME2P_RODATA     Offs=0000E0  Size=000017  Align=00001  Fill=0000
+cursor12.o:
+    GAME2P_RODATA     Offs=0000F7  Size=000017  Align=00001  Fill=0000
+grid02.o:
+    GAME2P_RODATA     Offs=00010E  Size=00013F  Align=00001  Fill=0000
+grid12.o:
+    GAME2P_RODATA     Offs=00024D  Size=00019A  Align=00001  Fill=0000
+gridSmall2.o:
+    GAME2P_RODATA     Offs=0003E7  Size=000071  Align=00001  Fill=0000
+background2.o:
+    GAME2P_RODATA     Offs=000458  Size=00079B  Align=00001  Fill=0000
+net.o:
+    GAME2P_CODE       Offs=000000  Size=000114  Align=00001  Fill=0000
+game.o:
+    GAME2P_DATA       Offs=000000  Size=000078  Align=00001  Fill=0000
+    GAME2P_RODATA     Offs=000BF3  Size=0000AC  Align=00001  Fill=0000
+    GAME2P_BSS        Offs=000000  Size=000386  Align=00001  Fill=0000
+    GAME2P_CODE       Offs=000114  Size=0020D9  Align=00001  Fill=0000
+comborow.o:
+    GAME2P_CODE       Offs=0021ED  Size=000406  Align=00001  Fill=0000
+comboset.o:
+    GAME2P_CODE       Offs=0025F3  Size=00068A  Align=00001  Fill=0000
+gboard.o:
+    GAME2P_CODE       Offs=002C7D  Size=000392  Align=00001  Fill=0000
+TUNE0.o:
+    TUNE0_RODATA      Offs=000000  Size=0005BA  Align=00001  Fill=0000
+TUNE1.o:
+    TUNE1_RODATA      Offs=000000  Size=001590  Align=00001  Fill=0000
+TUNE2.o:
+    TUNE2_RODATA      Offs=000000  Size=000C6A  Align=00001  Fill=0000
+TUNE3.o:
+    TUNE3_RODATA      Offs=000000  Size=0006E6  Align=00001  Fill=0000
+SAMPLE0.o:
+    SAMPLE0_RODATA    Offs=000000  Size=000210  Align=00001  Fill=0000
+SAMPLE1.o:
+    SAMPLE1_RODATA    Offs=000000  Size=0004B5  Align=00001  Fill=0000
+SAMPLE2.o:
+    SAMPLE2_RODATA    Offs=000000  Size=000210  Align=00001  Fill=0000
+SAMPLE3.o:
+    SAMPLE3_RODATA    Offs=000000  Size=000CCC  Align=00001  Fill=0000
+SAMPLE4.o:
+    SAMPLE4_RODATA    Offs=000000  Size=000F10  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(add.o):
+    CODE              Offs=00179B  Size=000019  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(addeqsp.o):
+    CODE              Offs=0017B4  Size=000011  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(addysp.o):
+    CODE              Offs=0017C5  Size=00000E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(and.o):
+    CODE              Offs=0017D3  Size=00000F  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(aslax1.o):
+    CODE              Offs=0017E2  Size=000008  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(aslax2.o):
+    CODE              Offs=0017EA  Size=00000B  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(aslax3.o):
+    CODE              Offs=0017F5  Size=00000E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(aslax4.o):
+    CODE              Offs=001803  Size=000011  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(asrax2.o):
+    CODE              Offs=001814  Size=00000F  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(asrax4.o):
+    CODE              Offs=001823  Size=000019  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(axlong.o):
+    CODE              Offs=00183C  Size=000012  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(bneg.o):
+    CODE              Offs=00184E  Size=00000E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(call.o):
+    CODE              Offs=00185C  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(callirq.o):
+    DATA              Offs=0000F9  Size=00001E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(callmain.o):
+    CODE              Offs=001863  Size=000017  Align=00001  Fill=0000
+    BSS               Offs=0002E8  Size=000004  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(condes.o):
+    CODE              Offs=00187A  Size=00000C  Align=00001  Fill=0000
+    DATA              Offs=000117  Size=000025  Align=00001  Fill=0000
+    INIT              Offs=000000  Size=00000C  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(decax1.o):
+    CODE              Offs=001886  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(decax2.o):
+    CODE              Offs=00188D  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(decax3.o):
+    CODE              Offs=001894  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(decax4.o):
+    CODE              Offs=00189B  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(decax5.o):
+    CODE              Offs=0018A2  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(decax7.o):
+    CODE              Offs=0018A9  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(decaxy.o):
+    CODE              Offs=0018B0  Size=000009  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(decsp1.o):
+    CODE              Offs=0018B9  Size=000009  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(decsp2.o):
+    CODE              Offs=0018C2  Size=00000D  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(decsp3.o):
+    CODE              Offs=0018CF  Size=00000D  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(decsp4.o):
+    CODE              Offs=0018DC  Size=00000D  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(decsp5.o):
+    CODE              Offs=0018E9  Size=00000D  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(decsp6.o):
+    CODE              Offs=0018F6  Size=00000D  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(div.o):
+    CODE              Offs=001903  Size=000018  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(icmp.o):
+    CODE              Offs=00191B  Size=00002E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incax2.o):
+    CODE              Offs=001949  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incax3.o):
+    CODE              Offs=001950  Size=000005  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incax5.o):
+    CODE              Offs=001955  Size=000005  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incax6.o):
+    CODE              Offs=00195A  Size=000005  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incax8.o):
+    CODE              Offs=00195F  Size=000005  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incaxy.o):
+    CODE              Offs=001964  Size=00000B  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incsp1.o):
+    CODE              Offs=00196F  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incsp2.o):
+    CODE              Offs=001976  Size=000015  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incsp3.o):
+    CODE              Offs=00198B  Size=000005  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incsp4.o):
+    CODE              Offs=001990  Size=000005  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incsp5.o):
+    CODE              Offs=001995  Size=000005  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incsp6.o):
+    CODE              Offs=00199A  Size=000005  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incsp7.o):
+    CODE              Offs=00199F  Size=000005  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(incsp8.o):
+    CODE              Offs=0019A4  Size=000005  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(ladd.o):
+    CODE              Offs=0019A9  Size=000024  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(land.o):
+    CODE              Offs=0019CD  Size=000024  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(lasr.o):
+    CODE              Offs=0019F1  Size=00001E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(lcmp.o):
+    CODE              Offs=001A0F  Size=00003B  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(ldai.o):
+    CODE              Offs=001A4A  Size=00000C  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(ldaxi.o):
+    CODE              Offs=001A56  Size=00000D  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(ldaxsp.o):
+    CODE              Offs=001A63  Size=000009  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(ldeaxysp.o):
+    CODE              Offs=001A6C  Size=000013  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(leaaxsp.o):
+    CODE              Offs=001A7F  Size=00000C  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(linc.o):
+    CODE              Offs=001A8B  Size=000011  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(lneg.o):
+    CODE              Offs=001A9C  Size=00001E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(lpop.o):
+    CODE              Offs=001ABA  Size=000015  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(lpush.o):
+    CODE              Offs=001ACF  Size=000021  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(ltest.o):
+    CODE              Offs=001AF0  Size=00000F  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(lult.o):
+    CODE              Offs=001AFF  Size=000006  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(makebool.o):
+    CODE              Offs=001B05  Size=000031  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(mod.o):
+    CODE              Offs=001B36  Size=000014  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(mul8.o):
+    CODE              Offs=001B4A  Size=00003A  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(mulax3.o):
+    CODE              Offs=001B84  Size=000011  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(mulax5.o):
+    CODE              Offs=001B95  Size=000014  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(mulax9.o):
+    CODE              Offs=001BA9  Size=000017  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(neg.o):
+    CODE              Offs=001BC0  Size=00000E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(or.o):
+    CODE              Offs=001BCE  Size=000012  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(popa.o):
+    CODE              Offs=001BE0  Size=00000A  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(popsreg.o):
+    CODE              Offs=001BEA  Size=00000F  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(push1.o):
+    CODE              Offs=001BF9  Size=000005  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(pusha.o):
+    CODE              Offs=001BFE  Size=000016  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(pushax.o):
+    CODE              Offs=001C14  Size=00001A  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(pushw.o):
+    CODE              Offs=001C2E  Size=00000F  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(pushwsp.o):
+    CODE              Offs=001C3D  Size=00001C  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(return0.o):
+    CODE              Offs=001C59  Size=000004  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(return1.o):
+    CODE              Offs=001C5D  Size=000005  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(shelp.o):
+    CODE              Offs=001C62  Size=00001E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(shrax1.o):
+    CODE              Offs=001C80  Size=000008  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(shrax2.o):
+    CODE              Offs=001C88  Size=00000B  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(staspidx.o):
+    CODE              Offs=001C93  Size=000016  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(staxsp.o):
+    CODE              Offs=001CA9  Size=00000B  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(staxspi.o):
+    CODE              Offs=001CB4  Size=00001B  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(steaxsp.o):
+    CODE              Offs=001CCF  Size=000015  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(sub.o):
+    CODE              Offs=001CE4  Size=000014  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(subysp.o):
+    CODE              Offs=001CF8  Size=00000D  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(udiv.o):
+    CODE              Offs=001D05  Size=00004F  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(udiv32by16r16.o):
+    CODE              Offs=001D54  Size=000031  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(umod.o):
+    CODE              Offs=001D85  Size=000011  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(umul16x16r32.o):
+    CODE              Offs=001D96  Size=00002C  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(umul8x16r24.o):
+    CODE              Offs=001DC2  Size=00002E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(zeropage.o):
+    ZEROPAGE          Offs=000000  Size=00001A  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(bootldr.o):
+    BOOTLDR           Offs=000000  Size=0000CB  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(cgetc.o):
+    CODE              Offs=001DF0  Size=000050  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(clock.o):
+    CODE              Offs=001E40  Size=00003E  Align=00001  Fill=0000
+    BSS               Offs=0002EC  Size=000003  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(crt0.o):
+    CODE              Offs=001E7E  Size=000011  Align=00001  Fill=0000
+    RODATA            Offs=000BB9  Size=00002C  Align=00001  Fill=0000
+    STARTUP           Offs=000000  Size=00007D  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(ctype.o):
+    RODATA            Offs=000BE5  Size=000100  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(extzp.o):
+    EXTZP             Offs=000000  Size=000019  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(joy_stat_stddrv.o):
+/usr/local/lib/cc65/lib/lynx.lib(kbhit.o):
+    CODE              Offs=001E8F  Size=000038  Align=00001  Fill=0000
+    DATA              Offs=00013C  Size=000006  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(load.o):
+    CODE              Offs=001EC7  Size=00001F  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(lseek.o):
+    CODE              Offs=001EE6  Size=00003C  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(lynx-160-102-16-tgi.o):
+    CODE              Offs=001F22  Size=0006E4  Align=00001  Fill=0000
+    BSS               Offs=0002EF  Size=0000BD  Align=00001  Fill=0000
+    DATA              Offs=000142  Size=000059  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(lynx-cart.o):
+    CODE              Offs=002606  Size=00005E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(lynx-comlynx-ser.o):
+    CODE              Offs=002664  Size=000202  Align=00001  Fill=0000
+    BSS               Offs=0003AC  Size=000207  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(lynx-stdjoy-joy.o):
+    CODE              Offs=002866  Size=000028  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(open.o):
+    CODE              Offs=00288E  Size=000098  Align=00001  Fill=0000
+    DATA              Offs=00019B  Size=000004  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(oserror.o):
+    CODE              Offs=002926  Size=000001  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(read.o):
+    CODE              Offs=002927  Size=000021  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(tgi_colors.o):
+/usr/local/lib/cc65/lib/lynx.lib(tgi_stat_stddrv.o):
+/usr/local/lib/cc65/lib/lynx.lib(_heap.o):
+    DATA              Offs=00019F  Size=00000A  Align=00001  Fill=0000
+    INIT              Offs=00000C  Size=000010  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(_hextab.o):
+    RODATA            Offs=000CE5  Size=000010  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(_longminstr.o):
+    RODATA            Offs=000CF5  Size=00000C  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(_oserror.o):
+    BSS               Offs=0005B3  Size=000001  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(_printf.o):
+    CODE              Offs=002948  Size=0003A5  Align=00001  Fill=0000
+    BSS               Offs=0005B4  Size=00002B  Align=00001  Fill=0000
+    DATA              Offs=0001A9  Size=000003  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(_seterrno.o):
+    CODE              Offs=002CED  Size=000009  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(atoi.o):
+    CODE              Offs=002CF6  Size=000096  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(errno.o):
+    CODE              Offs=002D8C  Size=000018  Align=00001  Fill=0000
+    BSS               Offs=0005DF  Size=000002  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(ltoa.o):
+    CODE              Offs=002DA4  Size=0000AF  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(malloc.o):
+    CODE              Offs=002E53  Size=00010E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(memcpy.o):
+    CODE              Offs=002F61  Size=000041  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(sprintf.o):
+    CODE              Offs=002FA2  Size=00002B  Align=00001  Fill=0000
+    BSS               Offs=0005E1  Size=000001  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(strcmp.o):
+    CODE              Offs=002FCD  Size=000027  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(strcpy.o):
+    CODE              Offs=002FF4  Size=00001F  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(strlen.o):
+    CODE              Offs=003013  Size=000016  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(strlower.o):
+    CODE              Offs=003029  Size=000028  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(vsnprintf.o):
+    CODE              Offs=003051  Size=0000C8  Align=00001  Fill=0000
+    DATA              Offs=0001AC  Size=000008  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(vsprintf.o):
+    CODE              Offs=003119  Size=000012  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(zerobss.o):
+    INIT              Offs=00001C  Size=000023  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(joy-kernel.o):
+    CODE              Offs=00312B  Size=000062  Align=00001  Fill=0000
+    RODATA            Offs=000D01  Size=000004  Align=00001  Fill=0000
+    BSS               Offs=0005E2  Size=00000A  Align=00001  Fill=0000
+    DATA              Offs=0001B4  Size=00000F  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(joy_read.o):
+/usr/local/lib/cc65/lib/lynx.lib(ser-kernel.o):
+    CODE              Offs=00318D  Size=000052  Align=00001  Fill=0000
+    RODATA            Offs=000D05  Size=000004  Align=00001  Fill=0000
+    BSS               Offs=0005EC  Size=000002  Align=00001  Fill=0000
+    DATA              Offs=0001C3  Size=00001B  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(ser_get.o):
+    CODE              Offs=0031DF  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(ser_open.o):
+    CODE              Offs=0031E6  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(ser_put.o):
+/usr/local/lib/cc65/lib/lynx.lib(tgi-kernel.o):
+    CODE              Offs=0031ED  Size=000083  Align=00001  Fill=0000
+    RODATA            Offs=000D09  Size=000004  Align=00001  Fill=0000
+    BSS               Offs=0005EE  Size=000028  Align=00001  Fill=0000
+    DATA              Offs=0001DE  Size=00003C  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(tgi_clear.o):
+/usr/local/lib/cc65/lib/lynx.lib(tgi_clippedline.o):
+    CODE              Offs=003270  Size=0001E3  Align=00001  Fill=0000
+    BSS               Offs=000616  Size=000008  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(tgi_done.o):
+    CODE              Offs=003453  Size=00000E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(tgi_getpalette.o):
+/usr/local/lib/cc65/lib/lynx.lib(tgi_getxres.o):
+    CODE              Offs=003461  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(tgi_getyres.o):
+    CODE              Offs=003468  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(tgi_init.o):
+    CODE              Offs=00346F  Size=000058  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(tgi_ioctl.o):
+    CODE              Offs=0034C7  Size=00000A  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(tgi_line.o):
+    CODE              Offs=0034D1  Size=000018  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(tgi_linepop.o):
+    CODE              Offs=0034E9  Size=00001C  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(tgi_outcode.o):
+    CODE              Offs=003505  Size=000041  Align=00001  Fill=0000
+    BSS               Offs=00061E  Size=000008  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(tgi_setcolor.o):
+    CODE              Offs=003546  Size=00000E  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(tgi_setpalette.o):
+    CODE              Offs=003554  Size=000007  Align=00001  Fill=0000
+/usr/local/lib/cc65/lib/lynx.lib(tgi_settextstyle.o):
+    CODE              Offs=00355B  Size=000042  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+BOOTLDR               000000  0000CA  0000CB  00001
+DIRECTORY             000000  000077  000078  00001
+EXEHDR                000000  00003F  000040  00001
+ZEROPAGE              000000  000019  00001A  00001
+EXTZP                 00001A  000032  000019  00001
+APPZP                 000033  000039  000007  00001
+CREDITS_CODE          000200  0013C2  0011C3  00001
+GAME2P_CODE           000200  00320E  00300F  00001
+GAME_CODE             000200  003E89  003C8A  00001
+INTRO_CODE            000200  00085A  00065B  00001
+MENU_CODE             000200  000E6D  000C6E  00001
+INTRO_RODATA          00085B  00347F  002C25  00001
+MENU_RODATA           000E6E  0041E9  00337C  00001
+CREDITS_RODATA        0013C3  004D21  00395F  00001
+GAME2P_RODATA         00320F  003EAD  000C9F  00001
+INTRO_DATA            003480  00355C  0000DD  00001
+GAME_RODATA           003E8A  004B4C  000CC3  00001
+GAME2P_DATA           003EAE  003F25  000078  00001
+GAME2P_BSS            003F26  0042AB  000386  00001
+MENU_DATA             0041EA  004264  00007B  00001
+GAME_DATA             004B4D  004BC4  000078  00001
+GAME_BSS              004BC5  00536A  0007A6  00001
+CREDITS_DATA          004D22  005102  0003E1  00001
+TUNE0_RODATA          0056E6  005C9F  0005BA  00001
+TUNE1_RODATA          0056E6  006C75  001590  00001
+TUNE2_RODATA          0056E6  00634F  000C6A  00001
+TUNE3_RODATA          0056E6  005DCB  0006E6  00001
+STARTUP               006C76  006CF2  00007D  00001
+INIT                  006CF3  006D31  00003F  00001
+CODE                  006D32  00A2CE  00359D  00001
+RODATA                00A2CF  00AFDD  000D0F  00001
+DATA                  00AFDE  00B203  000226  00001
+BSS                   00B204  00B829  000626  00001
+SAMPLE0_RODATA        00E018  00E227  000210  00001
+SAMPLE1_RODATA        00E018  00E4CC  0004B5  00001
+SAMPLE2_RODATA        00E018  00E227  000210  00001
+SAMPLE3_RODATA        00E018  00ECE3  000CCC  00001
+SAMPLE4_RODATA        00E018  00EF27  000F10  00001
+
+
+Exports list:
+-------------
+KBEDG                     00B11C RLA    KBSTL                     00B11D RLA    
+_CREDITS_FILENR           000003 REA    _FileBlockByte            00002F RLZ    
+_FileBlockOffset          000027 RLZ    _FileCurrBlock            00002E RLZ    
+_FileDestAddr             00002A RLZ    _FileDestPtr              000031 RLZ    
+_FileEntry                000026 RLZ    _FileFileLen              00002C RLZ    
+_FileStartBlock           000026 RLZ    _GAME2P_FILENR            000005 REA    
+_GAME_FILENR              000004 REA    _INTRO_FILENR             000001 REA    
+_LynxSD_CloseFile         006DDB RLA    _LynxSD_OpenFile          006D7F RLA    
+_LynxSD_OpenFileTimeout   006E6B RLA    _LynxSD_ReadFile          006D95 RLA    
+_LynxSD_WriteFile         006DB8 RLA    _MENU_FILENR              000002 REA    
+_PCMMain                  0077D3  LAI   _SAMPLE0_FILENR           00000A REA    
+_SAMPLE1_FILENR           00000B REA    _SAMPLE2_FILENR           00000C REA    
+_SAMPLE3_FILENR           00000D REA    _SAMPLE4_FILENR           00000E REA    
+_TUNE0_FILENR             000006 REA    _TUNE1_FILENR             000007 REA    
+_TUNE2_FILENR             000008 REA    _TUNE3_FILENR             000009 REA    
+__BLOCKSIZE__             000400 REA    __BOOTLDR__               000001 REA    
+__BSS_RUN__               00B204 RLA    __BSS_SIZE__              000626 REA    
+__CODE_SIZE__             00359D REA    __CONSTRUCTOR_COUNT__     000001 REA    
+__CONSTRUCTOR_TABLE__     00AFDC RLA    __CREDITS_CODE_LOAD__     000200 RLA    
+__CREDITS_CODE_SIZE__     0011C3 REA    __CREDITS_DATA_SIZE__     0003E1 REA    
+__CREDITS_RODATA_SIZE__   00395F REA    __DATA_SIZE__             000226 REA    
+__DESTRUCTOR_COUNT__      000000 REA    __DESTRUCTOR_TABLE__      00AFDE RLA    
+__GAME2P_CODE_LOAD__      000200 RLA    __GAME2P_CODE_SIZE__      00300F REA    
+__GAME2P_DATA_SIZE__      000078 REA    __GAME2P_RODATA_SIZE__    000C9F REA    
+__GAME_CODE_LOAD__        000200 RLA    __GAME_CODE_SIZE__        003C8A REA    
+__GAME_DATA_SIZE__        000078 REA    __GAME_RODATA_SIZE__      000CC3 REA    
+__INIT_SIZE__             00003F REA    __INTERRUPTOR_COUNT__     000006 REA    
+__INTERRUPTOR_TABLE__     00B1F8 RLA    __INTRO_CODE_LOAD__       000200 RLA    
+__INTRO_CODE_SIZE__       00065B REA    __INTRO_DATA_SIZE__       0000DD REA    
+__INTRO_RODATA_SIZE__     002C25 REA    __MENU_CODE_LOAD__        000200 RLA    
+__MENU_CODE_SIZE__        000C6E REA    __MENU_DATA_SIZE__        00007B REA    
+__MENU_RODATA_SIZE__      00337C REA    __RAM_SIZE__              004BC2 REA    
+__RAM_START__             006C76 RLA    __RODATA_SIZE__           000D0F REA    
+__SAMPLE0_RODATA_SIZE__   000210 REA    __SAMPLE0_START__         00E018 RLA    
+__SAMPLE1_RODATA_SIZE__   0004B5 REA    __SAMPLE1_START__         00E018 RLA    
+__SAMPLE2_RODATA_SIZE__   000210 REA    __SAMPLE2_START__         00E018 RLA    
+__SAMPLE3_RODATA_SIZE__   000CCC REA    __SAMPLE3_START__         00E018 RLA    
+__SAMPLE4_RODATA_SIZE__   000F10 REA    __SAMPLE4_START__         00E018 RLA    
+__STACKSIZE__             000800 REA    __STARTOFDIRECTORY__      0000CB REA    
+__STARTUP_LOAD__          006C76 RLA    __STARTUP_SIZE__          00007D REA    
+__STARTUP__               000001 REA    __TUNE0_RODATA_SIZE__     0005BA REA    
+__TUNE0_START__           0056E6 RLA    __TUNE1_RODATA_SIZE__     001590 REA    
+__TUNE1_START__           0056E6 RLA    __TUNE2_RODATA_SIZE__     000C6A REA    
+__TUNE2_START__           0056E6 RLA    __TUNE3_RODATA_SIZE__     0006E6 REA    
+__TUNE3_START__           0056E6 RLA    __ZP_START__              000000 RLA    
+__ctype                   00AEB4 RLA    __directerrno             009ABE RLA    
+__errno                   00B7E3 RLA    __heapend                 00B181 RLA    
+__heapfirst               00B183 RLA    __heaplast                00B185 RLA    
+__heapptr                 00B17F RLA    __hextab                  00AFB4 RLA    
+__iodat                   00001A RLZ    __iodir                   00001B RLZ    
+__longminstr              00AFC4 RLA    __oserror                 00B7B7 RLA    
+__osmaperrno              009658 RLA    __printf                  00976D RLA    
+__seterrno                009A1F RLA    __sprsys                  00001D RLZ    
+__viddma                  00001C RLZ    _altview                  00B0D1 RLA    
+_askPlayAgain             000A2D RLA    _atoi                     009A28 RLA    
+_background               0042E2 RLA    _background2              003667 RLA    
+_cgetc                    008B22 RLA    _checkInput               0081B6 RLA    
+_clock                    008B72 RLA    _coordtoint               00228B RLA    
+_coordtoint2              002F11 RLA    _cr2_init                 0023ED RLA    
+_cr2_register             002529 RLA    _cr_init                  001767 RLA    
+_cr_isable                001A33 RLA    _cr_isects                001A85 RLA    
+_cr_register              0018A3 RLA    _credits                  000321 RLA    
+_creditsbg                002171 RLA    _cs2_init                 0027F3 RLA    
+_cs2_place                002CBE RLA    _cs_init                  001B6D RLA    
+_cs_place                 002038 RLA    _cursor0                  003F6A RLA    
+_cursor02                 0032EF RLA    _cursor1                  003F81 RLA    
+_cursor12                 003306 RLA    _dleft                    003E8A RLA    
+_dleft2                   00320F RLA    _dot0                     003F27 RLA    
+_dot02                    0032AC RLA    _dot1                     003F2E RLA    
+_dot12                    0032B3 RLA    _dot2                     003F35 RLA    
+_dot22                    0032BA RLA    _dright                   003ED5 RLA    
+_dright2                  00325A RLA    _fade_in                  0083E6 RLA    
+_fade_out                 008467 RLA    _flipflop                 00B0D4 RLA    
+_font000000               00A3D8 RLA    _font000001               00A3FF RLA    
+_font000002               00A424 RLA    _font000003               00A44A RLA    
+_font000004               00A470 RLA    _font000005               00A492 RLA    
+_font000006               00A4B4 RLA    _font000007               00A4DB RLA    
+_font000008               00A502 RLA    _font000009               00A524 RLA    
+_font000010               00A546 RLA    _font000011               00A56F RLA    
+_font000012               00A591 RLA    _font000013               00A5BA RLA    
+_font000014               00A5E3 RLA    _font000015               00A60B RLA    
+_font000016               00A62F RLA    _font000017               00A658 RLA    
+_font000018               00A67E RLA    _font000019               00A6A6 RLA    
+_font000020               00A6CD RLA    _font000021               00A6F5 RLA    
+_font000022               00A71D RLA    _font000023               00A745 RLA    
+_font000024               00A76D RLA    _font000025               00A795 RLA    
+_font001000               00A7B9 RLA    _font001001               00A7E0 RLA    
+_font001002               00A809 RLA    _font001003               00A830 RLA    
+_font001004               00A85D RLA    _font001005               00A882 RLA    
+_font001006               00A8A5 RLA    _font001007               00A8D2 RLA    
+_font001008               00A8FA RLA    _font001009               00A91B RLA    
+_font001010               00A93E RLA    _font001011               00A965 RLA    
+_font001012               00A989 RLA    _font001013               00A9AF RLA    
+_font001014               00A9D8 RLA    _font001015               00AA01 RLA    
+_font001016               00AA29 RLA    _font001017               00AA54 RLA    
+_font001018               00AA77 RLA    _font001019               00AA9A RLA    
+_font001020               00AABF RLA    _font001021               00AAE9 RLA    
+_font001022               00AB0F RLA    _font001023               00AB35 RLA    
+_font001024               00AB5B RLA    _font001025               00AB85 RLA    
+_font002000               00ABA8 RLA    _font002001               00ABD4 RLA    
+_font002002               00ABF6 RLA    _font002003               00AC1A RLA    
+_font002004               00AC40 RLA    _font002005               00AC65 RLA    
+_font002006               00AC89 RLA    _font002007               00ACAD RLA    
+_font002008               00ACD1 RLA    _font002009               00ACF6 RLA    
+_font002010               00AD1C RLA    _font002011               00AD3A RLA    
+_font002012               00AD5D RLA    _font002013               00AD80 RLA    
+_font002014               00AD9E RLA    _font002015               00ADC0 RLA    
+_font002016               00ADE3 RLA    _font002017               00AE05 RLA    
+_font002018               00AE2C RLA    _font002019               00AE54 RLA    
+_game                     000E1F RLA    _game2P                   001BBA RLA    
+_gb2_gameover             0031AD RLA    _gb2_place                0030E7 RLA    
+_gb2_reset                002E96 RLA    _gb_gameover              002527 RLA    
+_gb_place                 002461 RLA    _gb_reset                 002210 RLA    
+_gerk0                    002411 RLA    _gerk1                    0027F2 RLA    
+_gerk2                    002B12 RLA    _gerk3                    002D40 RLA    
+_gerk4                    002F94 RLA    _gerk5                    003241 RLA    
+_grid                     0032E2 RLA    _grid0                    003F98 RLA    
+_grid02                   00331D RLA    _gridSmall                004271 RLA    
+_gridSmall2               0035F6 RLA    _ingame                   00B0D3 RLA    
+_intro                    000739 RLA    _joy_install              009E5D RLA    
+_joy_masks                00B7E8 RLA    _joy_read                 00B19B REA    
+_joy_static_stddrv        009598 RLA    _kbhit                    008BC1 RLA    
+_lastmove                 00B0D2 RLA    _legal                    0023AA RLA    
+_legal2                   003030 RLA    _lnx_eeprom_read          006FEB RLA    
+_lnx_eeprom_write         00703B RLA    _lseek                    008C18 RLA    
+_ltoa                     009AF2 RLA    _lynx_160_102_16          008C54 RLA    
+_lynx_comlynx             009396 RLA    _lynx_load                008BF9 RLA    
+_lynx_snd_continue        007760 RLA    _lynx_snd_init            0070E0 RLA    
+_lynx_snd_pause           00773A RLA    _lynx_snd_play            007693 RLA    
+_lynx_snd_stop            0076FF RLA    _lynx_stdjoy              009598 RLA    
+_main                     007D14 RLA    _makemove                 00262E RLA    
+_malloc                   009B85 RLA    _marker                   000E6E RLA    
+_markeron                 000EB8 RLA    _marks000000              00317D RLA    
+_marks000001              00322D RLA    _memcpy                   009C93 RLA    
+_menu                     000200 RLA    _menubg1                  000F02 RLA    
+_menubg2                  0018C7 RLA    _menubg3                  0022BB RLA    
+_musicEnabled             00B0D0 RLA    _musicptr                 0056E6 RLA    
+_netConnect               0002CD RLA    _netListen                0002AD RLA    
+_netReceiveData           00025E RLA    _netSendData              000214 RLA    
+_netgame                  000E09 RLA    _nop90                    001AB5 RLA    
+_openn                    0095F1 RLA    _opponent                 00230D RLA    
+_options                  000BFD RLA    _playPCMSample            007783 RLA    
+_play_PCM                 0083D7 RLA    _play_Tune                007B17 RLA    
+_pressA000000             004141 RLA    _pressA001000             0041A9 RLA    
+_read                     009659 RLA    _reset                    00B0CF RLA    
+_saveptr                  00B4AA RLA    _select                   002CE4 RLA    
+_select2PMode             0003C0 RLA    _selectGame               0004FE RLA    
+_selectLevel              00080C RLA    _ser_get                  009F11 RLA    
+_ser_install              009EBF RLA    _ser_open                 009F18 RLA    
+_ser_put                  00B1B0 REA    _set_difficulty           002589 RLA    
+_showHistory              00058C RLA    _showHistory2P            00098E RLA    
+_sprintf                  009CD4 RLA    _stats                    000F98 RLA    
+_stopPCMSample            00777C RLA    _strcmp                   009CFF RLA    
+_strcpy                   009D26 RLA    _strlen                   009D45 RLA    
+_strlower                 009D5B RLA    _textxy                   0078C5 RLA    
+_tgi_clear                00B1CE REA    _tgi_color                00B7FA RLA    
+_tgi_colorcount           00B813 RLA    _tgi_curx                 00B7F6 RLA    
+_tgi_cury                 00B7F8 RLA    _tgi_done                 00A185 RLA    
+_tgi_error                00B7F4 RLA    _tgi_flags                00B819 RLA    
+_tgi_font                 00B7FB RLA    _tgi_fontheight           00B816 RLA    
+_tgi_fontwidth            00B815 RLA    _tgi_getpalette           00B1DD REA    
+_tgi_getxres              00A193 RLA    _tgi_getyres              00A19A RLA    
+_tgi_gmode                00B7F5 RLA    _tgi_init                 00A1A1 RLA    
+_tgi_install              009F1F RLA    _tgi_ioctl                00A1F9 RLA    
+_tgi_line                 00A203 RLA    _tgi_setcolor             00A278 RLA    
+_tgi_setpalette           00A286 RLA    _tgi_settextstyle         00A28D RLA    
+_tgi_static_stddrv        008C54 RLA    _tgi_textdir              00B7FC RLA    
+_tgi_textscalew           00B7FF RLA    _tgi_xmax                 00B80B RLA    
+_tgi_xres                 00B80F RLA    _tgi_ymax                 00B80D RLA    
+_tgi_yres                 00B811 RLA    _tile1                    003F3C RLA    
+_tile12                   0032C1 RLA    _tile2                    003F53 RLA    
+_tile22                   0032D8 RLA    _title                    00085B RLA    
+_tunenum                  00B0D5 RLA    _tutorial                 00046C RLA    
+_tutorialbg               0013C3 RLA    _tuttxt                   004D22 RLA    
+_ultoa                    009B49 RLA    _vs_clear                 0037C4 RLA    
+_vs_combine               003CE8 RLA    _vs_disable               0039E5 RLA    
+_vs_incscore              003804 RLA    _vs_isable                003832 RLA    
+_vs_pickmember            003A5D RLA    _vsprintf                 009E4B RLA    
+addeq0sp                  0084E6 RLA    addeqysp                  0084E8 RLA    
+addysp                    0084F8 RLA    addysp1                   0084F7 RLA    
+aslax1                    008514 RLA    aslax2                    00851C RLA    
+aslax3                    008527 RLA    asrax2                    008546 RLA    
+asrax4                    008555 RLA    axlong                    008575 RLA    
+axulong                   00856E RLA    bnega                     008584 RLA    
+boolult                   008855 RLA    callax                    00858E RLA    
+callirq                   00B0D7 RLA    callmain                  008595 RLA    
+decax1                    0085B8 RLA    decax2                    0085BF RLA    
+decax3                    0085C6 RLA    decax4                    0085CD RLA    
+decax5                    0085D4 RLA    decax7                    0085DB RLA    
+decaxy                    0085E2 RLA    decsp1                    0085EB RLA    
+decsp2                    0085F4 RLA    decsp3                    008601 RLA    
+decsp4                    00860E RLA    decsp5                    00861B RLA    
+decsp6                    008628 RLA    donelib                   0085AC RLA    
+incax2                    00867B RLA    incax3                    008682 RLA    
+incax4                    008696 RLA    incax5                    008687 RLA    
+incax6                    00868C RLA    incax8                    008691 RLA    
+incaxy                    008698 RLA    inceaxy                   0087BD RLA    
+incsp1                    0086A1 RLA    incsp2                    0086AF RLA    
+incsp3                    0086BD RLA    incsp4                    0086C2 RLA    
+incsp5                    0086C7 RLA    incsp6                    0086CC RLA    
+incsp7                    0086D1 RLA    incsp8                    0086D6 RLA    
+initheap                  006CFF  LAI   initlib                   006CF3 RLA    
+joy_irq                   00B19E  LAI   joy_read                  00B19B RLA    
+ldaidx                    00877C RLA    ldax0sp                   008795 RLA    
+ldaxi                     008788 RLA    ldaxidx                   00878A RLA    
+ldaxysp                   008797 RLA    ldeax0sp                  00879E RLA    
+ldeaxysp                  0087A0 RLA    leaa0sp                   0087B1 RLA    
+lynx_snd_handler          007134  LAI   lynxblock                 009361 RLA    
+lynxread0                 009343 RLA    lynxskip0                 009338 RLA    
+mulax3                    0088B6 RLA    mulax5                    0088C7 RLA    
+mulax9                    0088DB RLA    negax                     0088F2 RLA    
+negeax                    0087CE RLA    popa                      008912 RLA    
+popax                     0086A8 RLA    popeax                    0087EC RLA    
+popsargs                  008994 RLA    popsreg                   00891C RLA    
+ptr1                      000008 RLZ    ptr2                      00000A RLZ    
+ptr3                      00000C RLZ    ptr4                      00000E RLZ    
+push0                     008946 RLA    push1                     00892B RLA    
+pusha                     008934 RLA    pusha0                    008948 RLA    
+pushax                    00894A RLA    pusheax                   00880A RLA    
+pushw                     008960 RLA    pushw0sp                  00896F RLA    
+pushwidx                  008962 RLA    pushwysp                  008971 RLA    
+regbank                   000014 RLZ    regsave                   000004 RLZ    
+return0                   00898B RLA    return1                   00898F RLA    
+ser_get                   00B1AD RLA    ser_irq                   00B1B9  LAI   
+ser_open                  00B1A7 RLA    ser_put                   00B1B0 RLA    
+shlax2                    00851C RLA    shlax3                    008527 RLA    
+shlax4                    008535 RLA    shrax1                    0089B2 RLA    
+shrax2                    0089BA RLA    sp                        000000 RLZ    
+sreg                      000002 RLZ    staspidx                  0089C5 RLA    
+stax0sp                   0089DB RLA    staxspidx                 0089E6 RLA    
+staxysp                   0089DD RLA    steaxysp                  008A03 RLA    
+subysp                    008A2A RLA    tgi_clear                 00B1CE RLA    
+tgi_clip_x1               00B822 RLA    tgi_clip_x2               00B826 RLA    
+tgi_clip_y1               00B824 RLA    tgi_clip_y2               00B828 RLA    
+tgi_clippedline           00A066 RLA    tgi_color_white           00000F REZ    
+tgi_control               00B1CB RLA    tgi_done                  00B1C5 RLA    
+tgi_getdefpalette         00B1E0 RLA    tgi_geterror              00B1C8 RLA    
+tgi_getpalette            00B1DD RLA    tgi_init                  00B1C2 RLA    
+tgi_inv_arg               009F74 RLA    tgi_irq                   00B1F5  LAI   
+tgi_line                  00B1E9 RLA    tgi_linepop               00A21B RLA    
+tgi_outcode               00A237 RLA    tgi_setcolor              00B1D7 RLA    
+tgi_setdrawpage           00B1D4 RLA    tgi_setpalette            00B1DA RLA    
+tgi_setviewpage           00B1D1 RLA    tmp1                      000010 RLZ    
+tmp2                      000011 RLZ    tmp3                      000012 RLZ    
+tosadda0                  0084CD RLA    tosaddax                  0084CF RLA    
+tosaddeax                 0086E1 RLA    tosanda0                  008505 RLA    
+tosandax                  008507 RLA    tosandeax                 008705 RLA    
+tosasreax                 008723 RLA    tosdiva0                  008635 RLA    
+tosicmp                   00864F RLA    tosicmp0                  00864D RLA    
+toslcmp                   008741 RLA    tosmoda0                  008868 RLA    
+tosmula0                  00887C RLA    tosorax                   008902 RLA    
+tossuba0                  008A16 RLA    tossubax                  008A18 RLA    
+tosudiva0                 008A37 RLA    tosulteax                 008831 RLA    
+tosumoda0                 008AB7 RLA    tosumodax                 008AB9 RLA    
+tosumula0                 00887C RLA    udiv16                    008A48 RLA    
+udiv32by16r16             008A86 RLA    umul16x16r32              008AC8 RLA    
+umul8x16r24               008AF4 RLA    update_clock              008B9B  LAI   
+utsteax                   008822 RLA    vsnprintf                 009D86 RLA    
+zerobss                   006D0F RLA    
+
+
+Imports list:
+-------------
+KBEDG (kbhit.o):
+    cgetc.o                   cgetc.s(9)
+KBSTL (kbhit.o):
+    cgetc.o                   cgetc.s(10)
+_CREDITS_FILENR (directory.o):
+    resident.o                resident.s(68)
+_FileBlockByte (extzp.o):
+    lynx-cart.o               extzp.inc(26)
+    bootldr.o                 extzp.inc(26)
+    playpcm.o                 extzp.inc(26)
+_FileBlockOffset (extzp.o):
+    open.o                    open.s(30)
+    bootldr.o                 extzp.inc(21)
+    playpcm.o                 extzp.inc(21)
+_FileCurrBlock (extzp.o):
+    lseek.o                   lseek.s(22)
+    open.o                    open.s(29)
+    lynx-cart.o               extzp.inc(25)
+    bootldr.o                 extzp.inc(25)
+    playpcm.o                 extzp.inc(25)
+_FileDestAddr (extzp.o):
+    load.o                    load.s(11)
+    bootldr.o                 extzp.inc(23)
+_FileDestPtr (extzp.o):
+    read.o                    read.s(15)
+    lynx-cart.o               extzp.inc(27)
+    bootldr.o                 extzp.inc(27)
+_FileEntry (extzp.o):
+    open.o                    open.s(27)
+    bootldr.o                 extzp.inc(19)
+_FileFileLen (extzp.o):
+    load.o                    load.s(10)
+    bootldr.o                 extzp.inc(24)
+    playpcm.o                 extzp.inc(24)
+_FileStartBlock (extzp.o):
+    open.o                    open.s(28)
+    bootldr.o                 extzp.inc(20)
+    playpcm.o                 extzp.inc(20)
+_GAME2P_FILENR (directory.o):
+    resident.o                resident.s(70)
+_GAME_FILENR (directory.o):
+    resident.o                resident.s(69)
+_INTRO_FILENR (directory.o):
+    resident.o                resident.s(66)
+_LynxSD_CloseFile (LynxSD.o):
+    resident.o                resident.s(26)
+_LynxSD_OpenFile (LynxSD.o):
+    resident.o                resident.s(23)
+_LynxSD_OpenFileTimeout (LynxSD.o):
+    resident.o                resident.s(27)
+_LynxSD_ReadFile (LynxSD.o):
+    resident.o                resident.s(24)
+_LynxSD_WriteFile (LynxSD.o):
+    resident.o                resident.s(25)
+_MENU_FILENR (directory.o):
+    resident.o                resident.s(67)
+_SAMPLE0_FILENR (directory.o):
+    game.o                    game.s(70)
+    game.o                    game.s(60)
+_SAMPLE1_FILENR (directory.o):
+    game.o                    game.s(71)
+    game.o                    game.s(61)
+_SAMPLE2_FILENR (directory.o):
+    game.o                    game.s(72)
+    game.o                    game.s(62)
+    menu.o                    menu.s(39)
+_SAMPLE3_FILENR (directory.o):
+    intro.o                   intro.s(31)
+_SAMPLE4_FILENR (directory.o):
+    intro.o                   intro.s(32)
+_TUNE0_FILENR (directory.o):
+    resident.o                resident.s(71)
+_TUNE1_FILENR (directory.o):
+    game.o                    game.s(73)
+    resident.o                resident.s(72)
+_TUNE2_FILENR (directory.o):
+    game.o                    game.s(74)
+    resident.o                resident.s(73)
+_TUNE3_FILENR (directory.o):
+    game.o                    game.s(75)
+    resident.o                resident.s(74)
+__BLOCKSIZE__ ([linker generated]):
+    lseek.o                   lseek.s(21)
+    lynx-cart.o               lynx-cart.s(20)
+    bootldr.o                 bootldr.s(8)
+    directory.o               directory.s(5)
+    lnxhdr.o                  lnxhdr.s(6)
+__BOOTLDR__ (bootldr.o):
+    [linker generated]        lynx.cfg(3)
+__BSS_RUN__ ([linker generated]):
+    _heap.o                   _heap.s(8)
+    zerobss.o                 zerobss.s(8)
+__BSS_SIZE__ ([linker generated]):
+    _heap.o                   _heap.s(8)
+    zerobss.o                 zerobss.s(8)
+__CODE_SIZE__ ([linker generated]):
+    directory.o               directory.s(12)
+__CONSTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  condes.s(18)
+__CONSTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  condes.s(18)
+__CREDITS_CODE_LOAD__ ([linker generated]):
+    directory.o               directory.s(29)
+__CREDITS_CODE_SIZE__ ([linker generated]):
+    directory.o               directory.s(30)
+__CREDITS_DATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(31)
+__CREDITS_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(32)
+__DATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(13)
+__DESTRUCTOR_COUNT__ ([linker generated]):
+    condes.o                  condes.s(19)
+__DESTRUCTOR_TABLE__ ([linker generated]):
+    condes.o                  condes.s(19)
+__GAME2P_CODE_LOAD__ ([linker generated]):
+    directory.o               directory.s(41)
+__GAME2P_CODE_SIZE__ ([linker generated]):
+    directory.o               directory.s(42)
+__GAME2P_DATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(43)
+__GAME2P_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(44)
+__GAME_CODE_LOAD__ ([linker generated]):
+    directory.o               directory.s(35)
+__GAME_CODE_SIZE__ ([linker generated]):
+    directory.o               directory.s(36)
+__GAME_DATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(37)
+__GAME_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(38)
+__INIT_SIZE__ ([linker generated]):
+    directory.o               directory.s(11)
+__INTERRUPTOR_COUNT__ ([linker generated]):
+    callirq.o                 callirq.s(34)
+    crt0.o                    crt0.s(26)
+__INTERRUPTOR_TABLE__ ([linker generated]):
+    callirq.o                 callirq.s(34)
+__INTRO_CODE_LOAD__ ([linker generated]):
+    directory.o               directory.s(17)
+__INTRO_CODE_SIZE__ ([linker generated]):
+    directory.o               directory.s(18)
+__INTRO_DATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(19)
+__INTRO_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(20)
+__MENU_CODE_LOAD__ ([linker generated]):
+    directory.o               directory.s(23)
+__MENU_CODE_SIZE__ ([linker generated]):
+    directory.o               directory.s(24)
+__MENU_DATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(25)
+__MENU_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(26)
+__RAM_SIZE__ ([linker generated]):
+    crt0.o                    crt0.s(27)
+__RAM_START__ ([linker generated]):
+    crt0.o                    crt0.s(27)
+__RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(14)
+__SAMPLE0_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(61)
+__SAMPLE0_START__ ([linker generated]):
+    directory.o               directory.s(60)
+__SAMPLE1_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(64)
+__SAMPLE1_START__ ([linker generated]):
+    directory.o               directory.s(63)
+__SAMPLE2_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(67)
+__SAMPLE2_START__ ([linker generated]):
+    directory.o               directory.s(66)
+__SAMPLE3_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(70)
+__SAMPLE3_START__ ([linker generated]):
+    directory.o               directory.s(69)
+__SAMPLE4_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(73)
+__SAMPLE4_START__ ([linker generated]):
+    directory.o               directory.s(72)
+__STACKSIZE__ ([linker generated]):
+    _heap.o                   _heap.s(8)
+    crt0.o                    crt0.s(27)
+__STARTOFDIRECTORY__ ([linker generated]):
+    open.o                    open.s(31)
+    directory.o               directory.s(6)
+__STARTUP_LOAD__ ([linker generated]):
+    directory.o               directory.s(9)
+__STARTUP_SIZE__ ([linker generated]):
+    directory.o               directory.s(10)
+__STARTUP__ (crt0.o):
+    resident.o                resident.s(13)
+__TUNE0_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(48)
+__TUNE0_START__ ([linker generated]):
+    directory.o               directory.s(47)
+__TUNE1_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(51)
+__TUNE1_START__ ([linker generated]):
+    directory.o               directory.s(50)
+__TUNE2_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(54)
+__TUNE2_START__ ([linker generated]):
+    directory.o               directory.s(53)
+__TUNE3_RODATA_SIZE__ ([linker generated]):
+    directory.o               directory.s(57)
+__TUNE3_START__ ([linker generated]):
+    directory.o               directory.s(56)
+__ZP_START__ ([linker generated]):
+    lynx-160-102-16-tgi.o     lynx-160-102-16-tgi.s(1771)
+    lynx-stdjoy-joy.o         lynx-stdjoy-joy.s(67)
+    lynx-comlynx-ser.o        lynx-comlynx-ser.s(491)
+__ctype (ctype.o):
+    strlower.o                strlower.s(12)
+    atoi.o                    atoi.s(9)
+__directerrno (errno.o):
+    open.o                    ../../asminc/errno.inc(10)
+__errno (errno.o):
+    _seterrno.o               ../../asminc/errno.inc(7)
+__heapend (_heap.o):
+    malloc.o                  ../../asminc/_heap.inc(33)
+__heapfirst (_heap.o):
+    malloc.o                  ../../asminc/_heap.inc(34)
+__heaplast (_heap.o):
+    malloc.o                  ../../asminc/_heap.inc(35)
+__heapptr (_heap.o):
+    malloc.o                  ../../asminc/_heap.inc(32)
+__hextab (_hextab.o):
+    ltoa.o                    ltoa.s(10)
+__iodat (extzp.o):
+    lynx-cart.o               extzp.inc(11)
+    crt0.o                    extzp.inc(11)
+    bootldr.o                 extzp.inc(11)
+__iodir (extzp.o):
+    crt0.o                    extzp.inc(12)
+__longminstr (_longminstr.o):
+    ltoa.o                    ltoa.s(10)
+__oserror (_oserror.o):
+    errno.o                   ../../asminc/errno.inc(7)
+    open.o                    ../../asminc/errno.inc(7)
+__osmaperrno (oserror.o):
+    errno.o                   ../../asminc/errno.inc(8)
+__printf (_printf.o):
+    vsnprintf.o               vsnprintf.s(9)
+__seterrno (_seterrno.o):
+    errno.o                   ../../asminc/errno.inc(9)
+__sprsys (extzp.o):
+    crt0.o                    extzp.inc(14)
+__viddma (extzp.o):
+    crt0.o                    extzp.inc(13)
+_altview (resident.o):
+    game.o                    game.s(64)
+    game.o                    game.s(56)
+    menu.o                    menu.s(34)
+_askPlayAgain (menu.o):
+    resident.o                resident.s(63)
+_atoi (atoi.o):
+    open.o                    open.s(20)
+_background (background.o):
+    game.o                    game.s(43)
+_background2 (background2.o):
+    game.o                    game.s(50)
+_cgetc (cgetc.o):
+    resident.o                resident.s(18)
+_checkInput (resident.o):
+    game.o                    game.s(32)
+    game.o                    game.s(29)
+    menu.o                    menu.s(21)
+    credits.o                 credits.s(26)
+_clock (clock.o):
+    gboard.o                  gboard.s(14)
+    vset.o                    vset.s(13)
+    gboard.o                  gboard.s(14)
+    menu.o                    menu.s(17)
+    intro.o                   intro.s(22)
+_coordtoint (gboard.o):
+    strategy.o                strategy.s(13)
+    game.o                    game.s(18)
+_coordtoint2 (gboard.o):
+    game.o                    game.s(19)
+_cr2_init (comborow.o):
+    comboset.o                comboset.s(14)
+_cr2_register (comborow.o):
+    comboset.o                comboset.s(15)
+_cr_init (comborow.o):
+    comboset.o                comboset.s(14)
+_cr_isable (comborow.o):
+    strategy.o                strategy.s(16)
+_cr_isects (comborow.o):
+    strategy.o                strategy.s(17)
+_cr_register (comborow.o):
+    comboset.o                comboset.s(15)
+_credits (credits.o):
+    resident.o                resident.s(64)
+_creditsbg (creditsbg.o):
+    credits.o                 credits.s(27)
+_cs2_init (comboset.o):
+    game.o                    game.s(23)
+_cs2_place (comboset.o):
+    game.o                    game.s(24)
+_cs_init (comboset.o):
+    game.o                    game.s(22)
+_cs_place (comboset.o):
+    game.o                    game.s(23)
+_cursor0 (cursor0.o):
+    game.o                    game.s(46)
+_cursor02 (cursor02.o):
+    game.o                    game.s(53)
+_cursor1 (cursor1.o):
+    game.o                    game.s(47)
+_cursor12 (cursor12.o):
+    game.o                    game.s(54)
+_dleft (dleft.o):
+    game.o                    game.s(53)
+_dleft2 (dleft2.o):
+    game.o                    game.s(60)
+_dot0 (dot0.o):
+    game.o                    game.s(50)
+_dot02 (dot02.o):
+    game.o                    game.s(57)
+_dot1 (dot1.o):
+    game.o                    game.s(51)
+_dot12 (dot12.o):
+    game.o                    game.s(58)
+_dot2 (dot2.o):
+    game.o                    game.s(52)
+_dot22 (dot22.o):
+    game.o                    game.s(59)
+_dright (dright.o):
+    game.o                    game.s(54)
+_dright2 (dright2.o):
+    game.o                    game.s(61)
+_fade_in (fadein.o):
+    intro.o                   intro.s(43)
+_fade_out (fadeout.o):
+    intro.o                   intro.s(44)
+_flipflop (resident.o):
+    game.o                    game.s(67)
+    game.o                    game.s(59)
+_font000000 (font.o):
+    text.o                    text.s(14)
+_font000001 (font.o):
+    text.o                    text.s(15)
+_font000002 (font.o):
+    text.o                    text.s(16)
+_font000003 (font.o):
+    text.o                    text.s(17)
+_font000004 (font.o):
+    text.o                    text.s(18)
+_font000005 (font.o):
+    text.o                    text.s(19)
+_font000006 (font.o):
+    text.o                    text.s(20)
+_font000007 (font.o):
+    text.o                    text.s(21)
+_font000008 (font.o):
+    text.o                    text.s(22)
+_font000009 (font.o):
+    text.o                    text.s(23)
+_font000010 (font.o):
+    text.o                    text.s(24)
+_font000011 (font.o):
+    text.o                    text.s(25)
+_font000012 (font.o):
+    text.o                    text.s(26)
+_font000013 (font.o):
+    text.o                    text.s(27)
+_font000014 (font.o):
+    text.o                    text.s(28)
+_font000015 (font.o):
+    text.o                    text.s(29)
+_font000016 (font.o):
+    text.o                    text.s(30)
+_font000017 (font.o):
+    text.o                    text.s(31)
+_font000018 (font.o):
+    text.o                    text.s(32)
+_font000019 (font.o):
+    text.o                    text.s(33)
+_font000020 (font.o):
+    text.o                    text.s(34)
+_font000021 (font.o):
+    text.o                    text.s(35)
+_font000022 (font.o):
+    text.o                    text.s(36)
+_font000023 (font.o):
+    text.o                    text.s(37)
+_font000024 (font.o):
+    text.o                    text.s(38)
+_font000025 (font.o):
+    text.o                    text.s(39)
+_font001000 (font.o):
+    text.o                    text.s(40)
+_font001001 (font.o):
+    text.o                    text.s(41)
+_font001002 (font.o):
+    text.o                    text.s(42)
+_font001003 (font.o):
+    text.o                    text.s(43)
+_font001004 (font.o):
+    text.o                    text.s(44)
+_font001005 (font.o):
+    text.o                    text.s(45)
+_font001006 (font.o):
+    text.o                    text.s(46)
+_font001007 (font.o):
+    text.o                    text.s(47)
+_font001008 (font.o):
+    text.o                    text.s(48)
+_font001009 (font.o):
+    text.o                    text.s(49)
+_font001010 (font.o):
+    text.o                    text.s(50)
+_font001011 (font.o):
+    text.o                    text.s(51)
+_font001012 (font.o):
+    text.o                    text.s(52)
+_font001013 (font.o):
+    text.o                    text.s(53)
+_font001014 (font.o):
+    text.o                    text.s(54)
+_font001015 (font.o):
+    text.o                    text.s(55)
+_font001016 (font.o):
+    text.o                    text.s(56)
+_font001017 (font.o):
+    text.o                    text.s(57)
+_font001018 (font.o):
+    text.o                    text.s(58)
+_font001019 (font.o):
+    text.o                    text.s(59)
+_font001020 (font.o):
+    text.o                    text.s(60)
+_font001021 (font.o):
+    text.o                    text.s(61)
+_font001022 (font.o):
+    text.o                    text.s(62)
+_font001023 (font.o):
+    text.o                    text.s(63)
+_font001024 (font.o):
+    text.o                    text.s(64)
+_font001025 (font.o):
+    text.o                    text.s(65)
+_font002000 (font.o):
+    text.o                    text.s(66)
+_font002001 (font.o):
+    text.o                    text.s(67)
+_font002002 (font.o):
+    text.o                    text.s(68)
+_font002003 (font.o):
+    text.o                    text.s(69)
+_font002004 (font.o):
+    text.o                    text.s(70)
+_font002005 (font.o):
+    text.o                    text.s(71)
+_font002006 (font.o):
+    text.o                    text.s(72)
+_font002007 (font.o):
+    text.o                    text.s(73)
+_font002008 (font.o):
+    text.o                    text.s(74)
+_font002009 (font.o):
+    text.o                    text.s(75)
+_font002010 (font.o):
+    text.o                    text.s(76)
+_font002011 (font.o):
+    text.o                    text.s(77)
+_font002012 (font.o):
+    text.o                    text.s(78)
+_font002013 (font.o):
+    text.o                    text.s(79)
+_font002014 (font.o):
+    text.o                    text.s(80)
+_font002015 (font.o):
+    text.o                    text.s(81)
+_font002016 (font.o):
+    text.o                    text.s(82)
+_font002017 (font.o):
+    text.o                    text.s(83)
+_font002018 (font.o):
+    text.o                    text.s(84)
+_font002019 (font.o):
+    text.o                    text.s(85)
+_game (game.o):
+    resident.o                resident.s(56)
+_game2P (game.o):
+    resident.o                resident.s(57)
+_gb2_gameover (gboard.o):
+    game.o                    game.s(22)
+_gb2_place (gboard.o):
+    game.o                    game.s(21)
+_gb2_reset (gboard.o):
+    game.o                    game.s(18)
+_gb_gameover (gboard.o):
+    game.o                    game.s(21)
+_gb_place (gboard.o):
+    game.o                    game.s(20)
+_gb_reset (gboard.o):
+    game.o                    game.s(17)
+_gerk0 (gerk0.o):
+    intro.o                   intro.s(33)
+_gerk1 (gerk1.o):
+    intro.o                   intro.s(34)
+_gerk2 (gerk2.o):
+    intro.o                   intro.s(35)
+_gerk3 (gerk3.o):
+    intro.o                   intro.s(36)
+_gerk4 (gerk4.o):
+    intro.o                   intro.s(37)
+_gerk5 (gerk5.o):
+    intro.o                   intro.s(38)
+_grid (grid.o):
+    credits.o                 credits.s(38)
+_grid0 (grid0.o):
+    game.o                    game.s(44)
+_grid02 (grid02.o):
+    game.o                    game.s(51)
+_gridSmall (gridSmall.o):
+    game.o                    game.s(45)
+_gridSmall2 (gridSmall2.o):
+    game.o                    game.s(52)
+_ingame (resident.o):
+    game.o                    game.s(66)
+    game.o                    game.s(58)
+_intro (intro.o):
+    resident.o                resident.s(51)
+_joy_install (joy-kernel.o):
+    intro.o                   intro.s(21)
+_joy_masks (joy-kernel.o):
+    game.o                    game.s(17)
+    game.o                    game.s(16)
+    menu.o                    menu.s(16)
+    credits.o                 credits.s(18)
+_joy_read (joy_read.o):
+    resident.o                resident.s(22)
+_joy_static_stddrv (joy_stat_stddrv.o):
+    intro.o                   intro.s(20)
+_kbhit (kbhit.o):
+    cgetc.o                   cgetc.s(8)
+    resident.o                resident.s(17)
+_lastmove (resident.o):
+    game.o                    game.s(65)
+    game.o                    game.s(57)
+    menu.o                    menu.s(35)
+_legal (gboard.o):
+    strategy.o                strategy.s(15)
+    game.o                    game.s(19)
+_legal2 (gboard.o):
+    game.o                    game.s(20)
+_lnx_eeprom_read (lynxeeprom.o):
+    resident.o                resident.s(41)
+_lnx_eeprom_write (lynxeeprom.o):
+    resident.o                resident.s(42)
+_lseek (lseek.o):
+    open.o                    open.s(22)
+_ltoa (ltoa.o):
+    _printf.o                 _printf.s(12)
+_lynx_160_102_16 (lynx-160-102-16-tgi.o):
+    tgi_stat_stddrv.o         tgi_stat_stddrv.s(10)
+_lynx_comlynx (lynx-comlynx-ser.o):
+    intro.o                   intro.s(13)
+_lynx_load (load.o):
+    game.o                    game.s(14)
+    resident.o                resident.s(14)
+_lynx_snd_continue (lynx-snd.o):
+    resident.o                resident.s(44)
+_lynx_snd_init (lynx-snd.o):
+    intro.o                   intro.s(41)
+_lynx_snd_pause (lynx-snd.o):
+    resident.o                resident.s(43)
+_lynx_snd_play (lynx-snd.o):
+    game.o                    game.s(35)
+    menu.o                    menu.s(23)
+    resident.o                resident.s(45)
+_lynx_snd_stop (lynx-snd.o):
+    game.o                    game.s(36)
+    menu.o                    menu.s(24)
+    resident.o                resident.s(46)
+_lynx_stdjoy (lynx-stdjoy-joy.o):
+    joy_stat_stddrv.o         joy_stat_stddrv.s(10)
+_main (resident.o):
+    callmain.o                callmain.s(11)
+_makemove (strategy.o):
+    game.o                    game.s(25)
+_malloc (malloc.o):
+    gboard.o                  gboard.s(13)
+    gboard.o                  gboard.s(13)
+_marker (marker.o):
+    menu.o                    menu.s(29)
+_markeron (markeron.o):
+    menu.o                    menu.s(30)
+_marks000000 (marks.o):
+    credits.o                 credits.s(29)
+_marks000001 (marks.o):
+    credits.o                 credits.s(30)
+_memcpy (memcpy.o):
+    vsnprintf.o               vsnprintf.s(9)
+    comboset.o                comboset.s(13)
+    vset.o                    vset.s(14)
+    comboset.o                comboset.s(13)
+_menu (menu.o):
+    resident.o                resident.s(52)
+_menubg1 (menubg1.o):
+    menu.o                    menu.s(26)
+_menubg2 (menubg2.o):
+    menu.o                    menu.s(27)
+_menubg3 (menubg3.o):
+    menu.o                    menu.s(28)
+_musicEnabled (resident.o):
+    game.o                    game.s(63)
+    menu.o                    menu.s(33)
+_musicptr (TUNE0.o):
+    game.o                    game.s(69)
+    menu.o                    menu.s(25)
+    resident.o                resident.s(50)
+_netConnect (net.o):
+    game.o                    game.s(28)
+_netListen (net.o):
+    game.o                    game.s(27)
+_netReceiveData (net.o):
+    game.o                    game.s(26)
+_netSendData (net.o):
+    game.o                    game.s(25)
+_netgame (game.o):
+    resident.o                resident.s(58)
+_nop90 (nop90.o):
+    intro.o                   intro.s(39)
+_openn (open.o):
+    load.o                    load.s(13)
+    resident.o                resident.s(49)
+_opponent (gboard.o):
+    strategy.o                strategy.s(14)
+_options (menu.o):
+    resident.o                resident.s(62)
+_playPCMSample (playpcm.o):
+    resident.o                resident.s(47)
+_play_PCM (resident.o):
+    game.o                    game.s(34)
+    game.o                    game.s(31)
+    menu.o                    menu.s(22)
+    intro.o                   intro.s(42)
+_play_Tune (resident.o):
+    game.o                    game.s(33)
+    game.o                    game.s(30)
+_pressA000000 (pressA.o):
+    credits.o                 credits.s(31)
+_pressA001000 (pressA.o):
+    credits.o                 credits.s(32)
+_read (read.o):
+    open.o                    open.s(21)
+    load.o                    load.s(14)
+_reset (resident.o):
+    game.o                    game.s(62)
+    game.o                    game.s(55)
+    menu.o                    menu.s(32)
+    credits.o                 credits.s(34)
+_saveptr (resident.o):
+    menu.o                    menu.s(36)
+    credits.o                 credits.s(39)
+_select (select.o):
+    menu.o                    menu.s(31)
+_select2PMode (menu.o):
+    resident.o                resident.s(55)
+_selectGame (menu.o):
+    resident.o                resident.s(54)
+_selectLevel (menu.o):
+    resident.o                resident.s(53)
+_ser_get (ser_get.o):
+    net.o                     net.s(13)
+_ser_install (ser-kernel.o):
+    intro.o                   intro.s(23)
+_ser_open (ser_open.o):
+    intro.o                   intro.s(24)
+_ser_put (ser_put.o):
+    net.o                     net.s(14)
+_set_difficulty (strategy.o):
+    game.o                    game.s(24)
+_showHistory (credits.o):
+    resident.o                resident.s(59)
+_showHistory2P (credits.o):
+    resident.o                resident.s(60)
+_sprintf (sprintf.o):
+    game.o                    game.s(13)
+    game.o                    game.s(13)
+    menu.o                    menu.s(13)
+    credits.o                 credits.s(13)
+_stats (credits.o):
+    resident.o                resident.s(61)
+_stopPCMSample (playpcm.o):
+    game.o                    game.s(37)
+    resident.o                resident.s(48)
+_strcmp (strcmp.o):
+    resident.o                resident.s(15)
+_strcpy (strcpy.o):
+    resident.o                resident.s(16)
+_strlen (strlen.o):
+    _printf.o                 _printf.s(13)
+_strlower (strlower.o):
+    _printf.o                 _printf.s(13)
+_textxy (text.o):
+    game.o                    game.s(31)
+    game.o                    game.s(28)
+    menu.o                    menu.s(20)
+    credits.o                 credits.s(25)
+_tgi_clear (tgi_clear.o):
+    intro.o                   intro.s(17)
+_tgi_color (tgi-kernel.o):
+    tgi_setcolor.o            ../../asminc/tgi-kernel.inc(120)
+_tgi_colorcount (tgi-kernel.o):
+    tgi_setcolor.o            ../../asminc/tgi-kernel.inc(132)
+_tgi_curx (tgi-kernel.o):
+    tgi_linepop.o             ../../asminc/tgi-kernel.inc(118)
+_tgi_cury (tgi-kernel.o):
+    tgi_linepop.o             ../../asminc/tgi-kernel.inc(119)
+_tgi_done (tgi_done.o):
+    tgi_init.o                ../../asminc/tgi-kernel.inc(193)
+    tgi-kernel.o              ../../asminc/tgi-kernel.inc(193)
+_tgi_error (tgi-kernel.o):
+    tgi_init.o                ../../asminc/tgi-kernel.inc(116)
+_tgi_flags (tgi-kernel.o):
+    tgi_settextstyle.o        ../../asminc/tgi-kernel.inc(137)
+_tgi_font (tgi-kernel.o):
+    tgi_settextstyle.o        ../../asminc/tgi-kernel.inc(121)
+_tgi_fontheight (tgi-kernel.o):
+    tgi_settextstyle.o        ../../asminc/tgi-kernel.inc(135)
+_tgi_fontwidth (tgi-kernel.o):
+    tgi_settextstyle.o        ../../asminc/tgi-kernel.inc(134)
+_tgi_getpalette (tgi_getpalette.o):
+    resident.o                resident.s(20)
+_tgi_getxres (tgi_getxres.o):
+    tgi_init.o                ../../asminc/tgi-kernel.inc(209)
+_tgi_getyres (tgi_getyres.o):
+    tgi_init.o                ../../asminc/tgi-kernel.inc(210)
+_tgi_gmode (tgi-kernel.o):
+    tgi_init.o                ../../asminc/tgi-kernel.inc(117)
+    tgi_done.o                ../../asminc/tgi-kernel.inc(117)
+_tgi_init (tgi_init.o):
+    intro.o                   intro.s(16)
+_tgi_install (tgi-kernel.o):
+    intro.o                   intro.s(15)
+_tgi_ioctl (tgi_ioctl.o):
+    game.o                    game.s(16)
+    game.o                    game.s(15)
+    menu.o                    menu.s(15)
+    credits.o                 credits.s(17)
+    intro.o                   intro.s(19)
+    resident.o                resident.s(21)
+    text.o                    text.s(13)
+_tgi_line (tgi_line.o):
+    credits.o                 credits.s(16)
+_tgi_setcolor (tgi_setcolor.o):
+    tgi_init.o                ../../asminc/tgi-kernel.inc(224)
+    credits.o                 credits.s(14)
+_tgi_setpalette (tgi_setpalette.o):
+    game.o                    game.s(15)
+    game.o                    game.s(14)
+    menu.o                    menu.s(14)
+    credits.o                 credits.s(15)
+    intro.o                   intro.s(18)
+    resident.o                resident.s(19)
+_tgi_settextstyle (tgi_settextstyle.o):
+    tgi_init.o                ../../asminc/tgi-kernel.inc(230)
+_tgi_static_stddrv (tgi_stat_stddrv.o):
+    intro.o                   intro.s(14)
+_tgi_textdir (tgi-kernel.o):
+    tgi_settextstyle.o        ../../asminc/tgi-kernel.inc(122)
+_tgi_textscalew (tgi-kernel.o):
+    tgi_settextstyle.o        ../../asminc/tgi-kernel.inc(124)
+_tgi_xmax (tgi-kernel.o):
+    tgi_clippedline.o         ../../asminc/tgi-kernel.inc(130)
+    tgi_init.o                ../../asminc/tgi-kernel.inc(130)
+_tgi_xres (tgi-kernel.o):
+    tgi_getxres.o             ../../asminc/tgi-kernel.inc(128)
+    tgi_outcode.o             ../../asminc/tgi-kernel.inc(128)
+_tgi_ymax (tgi-kernel.o):
+    tgi_clippedline.o         ../../asminc/tgi-kernel.inc(131)
+    tgi_init.o                ../../asminc/tgi-kernel.inc(131)
+_tgi_yres (tgi-kernel.o):
+    tgi_getyres.o             ../../asminc/tgi-kernel.inc(129)
+    tgi_outcode.o             ../../asminc/tgi-kernel.inc(129)
+_tile1 (tile1.o):
+    game.o                    game.s(48)
+_tile12 (tile12.o):
+    game.o                    game.s(55)
+_tile2 (tile2.o):
+    game.o                    game.s(49)
+_tile22 (tile22.o):
+    game.o                    game.s(56)
+_title (title.o):
+    intro.o                   intro.s(40)
+_tunenum (resident.o):
+    game.o                    game.s(68)
+_tutorial (credits.o):
+    resident.o                resident.s(65)
+_tutorialbg (tutorialbg.o):
+    credits.o                 credits.s(28)
+_tuttxt (tuttxt.o):
+    credits.o                 credits.s(33)
+_ultoa (ltoa.o):
+    _printf.o                 _printf.s(12)
+_vs_clear (vset.o):
+    strategy.o                strategy.s(18)
+_vs_combine (vset.o):
+    strategy.o                strategy.s(23)
+_vs_disable (vset.o):
+    strategy.o                strategy.s(21)
+_vs_incscore (vset.o):
+    strategy.o                strategy.s(19)
+_vs_isable (vset.o):
+    strategy.o                strategy.s(20)
+_vs_pickmember (vset.o):
+    strategy.o                strategy.s(22)
+_vsprintf (vsprintf.o):
+    sprintf.o                 sprintf.s(8)
+addeq0sp (addeqsp.o):
+    strategy.o                strategy.s(2509)
+addeqysp (addeqsp.o):
+    intro.o                   intro.s(1009)
+addysp (addysp.o):
+    sprintf.o                 sprintf.s(8)
+    open.o                    open.s(23)
+    incsp8.o                  incsp8.s(8)
+    incsp7.o                  incsp7.s(8)
+    incsp6.o                  incsp6.s(8)
+    incsp5.o                  incsp5.s(8)
+    incsp4.o                  incsp4.s(8)
+    incsp3.o                  incsp3.s(8)
+    comboset.o                comboset.s(822)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    comboset.o                comboset.s(822)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    intro.o                   intro.s(1009)
+addysp1 (addysp.o):
+    land.o                    land.s(8)
+    ladd.o                    ladd.s(8)
+    sub.o                     sub.s(8)
+    or.o                      or.s(8)
+    and.o                     and.s(8)
+aslax1 (aslax1.o):
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    game.o                    game.s(2653)
+    resident.o                resident.s(1386)
+    text.o                    text.s(476)
+aslax2 (aslax2.o):
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    resident.o                resident.s(1386)
+aslax3 (aslax3.o):
+    open.o                    open.s(24)
+asrax2 (asrax2.o):
+    gboard.o                  gboard.s(668)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    gboard.o                  gboard.s(668)
+    game.o                    game.s(2653)
+asrax4 (asrax4.o):
+    gboard.o                  gboard.s(668)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    gboard.o                  gboard.s(668)
+    game.o                    game.s(2653)
+axlong (axlong.o):
+    _printf.o                 _printf.s(11)
+    lseek.o                   lseek.s(19)
+    open.o                    open.s(24)
+axulong (axlong.o):
+    _printf.o                 _printf.s(11)
+bnega (bneg.o):
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    resident.o                resident.s(1386)
+boolult (makebool.o):
+    lult.o                    lult.s(8)
+callax (call.o):
+    strategy.o                strategy.s(2509)
+callirq (callirq.o):
+    crt0.o                    crt0.s(22)
+callmain (callmain.o):
+    crt0.o                    crt0.s(24)
+decax1 (decax1.o):
+    tgi_init.o                tgi_init.s(11)
+    comboset.o                comboset.s(822)
+    game.o                    game.s(3879)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    comboset.o                comboset.s(822)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+decax2 (decax2.o):
+    game.o                    game.s(3879)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+decax3 (decax3.o):
+    game.o                    game.s(3879)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+decax4 (decax4.o):
+    game.o                    game.s(3879)
+    game.o                    game.s(2653)
+decax5 (decax5.o):
+    game.o                    game.s(3879)
+    game.o                    game.s(2653)
+decax7 (decax7.o):
+    game.o                    game.s(3879)
+    game.o                    game.s(2653)
+decaxy (decaxy.o):
+    game.o                    game.s(3879)
+    game.o                    game.s(2653)
+    text.o                    text.s(476)
+decsp1 (decsp1.o):
+    gboard.o                  gboard.s(668)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    net.o                     net.s(229)
+    net.o                     net.s(229)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    gboard.o                  gboard.s(668)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    menu.o                    menu.s(1739)
+    resident.o                resident.s(1386)
+    LynxSD.o                  LynxSD.s(599)
+decsp2 (decsp2.o):
+    gboard.o                  gboard.s(668)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    net.o                     net.s(229)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    gboard.o                  gboard.s(668)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    text.o                    text.s(476)
+    LynxSD.o                  LynxSD.s(599)
+decsp3 (decsp3.o):
+    resident.o                resident.s(1386)
+decsp4 (decsp4.o):
+    sprintf.o                 sprintf.s(8)
+    lpush.o                   lpush.s(11)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    intro.o                   intro.s(1009)
+    LynxSD.o                  LynxSD.s(599)
+decsp5 (decsp5.o):
+    game.o                    game.s(3879)
+    vset.o                    vset.s(1092)
+    menu.o                    menu.s(1739)
+    resident.o                resident.s(1386)
+decsp6 (decsp6.o):
+    _printf.o                 _printf.s(11)
+    open.o                    open.s(23)
+    strategy.o                strategy.s(2509)
+donelib (condes.o):
+    crt0.o                    crt0.s(22)
+incax2 (incax2.o):
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+incax3 (incax3.o):
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    strategy.o                strategy.s(2509)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+incax4 (incaxy.o):
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+incax5 (incax5.o):
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(3879)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+incax6 (incax6.o):
+    game.o                    game.s(3879)
+    game.o                    game.s(2653)
+incax8 (incax8.o):
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+incaxy (incaxy.o):
+    incax8.o                  incax8.s(8)
+    incax6.o                  incax6.s(8)
+    incax5.o                  incax5.s(8)
+    incax3.o                  incax3.s(8)
+    comboset.o                comboset.s(822)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    comboset.o                comboset.s(822)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    intro.o                   intro.s(1009)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    text.o                    text.s(476)
+inceaxy (linc.o):
+    menu.o                    menu.s(1739)
+    intro.o                   intro.s(1009)
+incsp1 (incsp1.o):
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    net.o                     net.s(229)
+    net.o                     net.s(229)
+    net.o                     net.s(229)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    resident.o                resident.s(1386)
+    text.o                    text.s(476)
+    LynxSD.o                  LynxSD.s(599)
+incsp2 (incsp2.o):
+    vsnprintf.o               vsnprintf.s(8)
+    load.o                    load.s(12)
+    staxspi.o                 staxspi.s(8)
+    staspidx.o                staspidx.s(8)
+    popsreg.o                 popsreg.s(8)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    comborow.o                comborow.s(562)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    credits.o                 credits.s(2392)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+incsp3 (incsp3.o):
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    resident.o                resident.s(1386)
+    LynxSD.o                  LynxSD.s(599)
+incsp4 (incsp4.o):
+    lpop.o                    lpop.s(8)
+    lcmp.o                    lcmp.s(9)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(3879)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    intro.o                   intro.s(1009)
+    resident.o                resident.s(1386)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+incsp5 (incsp5.o):
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    net.o                     net.s(229)
+    net.o                     net.s(229)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    LynxSD.o                  LynxSD.s(599)
+incsp6 (incsp6.o):
+    vsnprintf.o               vsnprintf.s(8)
+    read.o                    read.s(17)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    menu.o                    menu.s(1739)
+    LynxSD.o                  LynxSD.s(599)
+incsp7 (incsp7.o):
+    comborow.o                comborow.s(562)
+    game.o                    game.s(3879)
+    vset.o                    vset.s(1092)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+incsp8 (incsp8.o):
+    lseek.o                   lseek.s(18)
+    open.o                    open.s(24)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    menu.o                    menu.s(1739)
+    text.o                    text.s(476)
+initlib (condes.o):
+    crt0.o                    crt0.s(22)
+joy_read (joy-kernel.o):
+    joy_read.o                ../../asminc/joy-kernel.inc(72)
+ldaidx (ldai.o):
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+ldax0sp (ldaxsp.o):
+    read.o                    read.s(17)
+    load.o                    load.s(12)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(3879)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    credits.o                 credits.s(2392)
+    intro.o                   intro.s(1009)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+ldaxi (ldaxi.o):
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    text.o                    text.s(476)
+ldaxidx (ldaxi.o):
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+ldaxysp (ldaxsp.o):
+    vsnprintf.o               vsnprintf.s(8)
+    read.o                    read.s(17)
+    open.o                    open.s(23)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(3879)
+    net.o                     net.s(229)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    credits.o                 credits.s(2392)
+    intro.o                   intro.s(1009)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    text.o                    text.s(476)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+ldeax0sp (ldeaxysp.o):
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+ldeaxysp (ldeaxysp.o):
+    lseek.o                   lseek.s(18)
+    menu.o                    menu.s(1739)
+    intro.o                   intro.s(1009)
+leaa0sp (leaaxsp.o):
+    net.o                     net.s(229)
+    vset.o                    vset.s(1092)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+lynxblock (lynx-cart.o):
+    lseek.o                   lseek.s(20)
+    open.o                    open.s(26)
+    playpcm.o                 playpcm.s(29)
+lynxread0 (lynx-cart.o):
+    read.o                    read.s(16)
+lynxskip0 (lynx-cart.o):
+    lseek.o                   lseek.s(20)
+    open.o                    open.s(26)
+    playpcm.o                 playpcm.s(28)
+mulax3 (mulax3.o):
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+mulax5 (mulax5.o):
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+mulax9 (mulax9.o):
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+negax (neg.o):
+    tgi_clippedline.o         tgi_clippedline.s(9)
+    shelp.o                   shelp.s(11)
+    mod.o                     mod.s(11)
+    div.o                     div.s(11)
+    game.o                    game.s(2653)
+negeax (lneg.o):
+    atoi.o                    atoi.s(9)
+popa (popa.o):
+    tgi_settextstyle.o        tgi_settextstyle.s(10)
+    tgi_ioctl.o               tgi_ioctl.s(13)
+    lynx-snd.o                lynx-snd.s(16)
+    lynxeeprom.o              lynxeeprom.s(48)
+popax (incsp2.o):
+    ltoa.o                    ltoa.s(9)
+    _printf.o                 _printf.s(11)
+    vsnprintf.o               vsnprintf.s(8)
+    tgi_settextstyle.o        tgi_settextstyle.s(10)
+    tgi_linepop.o             tgi_linepop.s(9)
+    tgi_line.o                tgi_line.s(10)
+    strcpy.o                  strcpy.s(8)
+    strcmp.o                  strcmp.s(8)
+    memcpy.o                  memcpy.s(14)
+    open.o                    open.s(23)
+    shelp.o                   shelp.s(11)
+    fadein.o                  fadein.s(23)
+popeax (lpop.o):
+    lasr.o                    lasr.s(15)
+popsargs (shelp.o):
+    mod.o                     mod.s(11)
+    div.o                     div.s(11)
+popsreg (popsreg.o):
+    umod.o                    umod.s(8)
+    udiv.o                    udiv.s(8)
+    mul8.o                    mul8.s(9)
+ptr1 (zeropage.o):
+    strlower.o                strlower.s(13)
+    strlen.o                  strlen.s(8)
+    ltoa.o                    ltoa.s(11)
+    _printf.o                 ../../asminc/zeropage.inc(12)
+    umul16x16r32.o            ../../asminc/zeropage.inc(12)
+    udiv32by16r16.o           ../../asminc/zeropage.inc(12)
+    tgi_clippedline.o         ../../asminc/zeropage.inc(12)
+    vsnprintf.o               vsnprintf.s(10)
+    umul8x16r24.o             ../../asminc/zeropage.inc(12)
+    lcmp.o                    lcmp.s(10)
+    tgi_settextstyle.o        ../../asminc/zeropage.inc(12)
+    tgi_setpalette.o          tgi_setpalette.s(12)
+    tgi_ioctl.o               tgi_ioctl.s(14)
+    tgi_init.o                tgi_init.s(12)
+    tgi-kernel.o              tgi-kernel.s(10)
+    ser_open.o                ser_open.s(9)
+    ser_get.o                 ser_get.s(10)
+    ser-kernel.o              ser-kernel.s(8)
+    joy-kernel.o              joy-kernel.s(7)
+    zerobss.o                 zerobss.s(9)
+    strcpy.o                  strcpy.s(9)
+    strcmp.o                  strcmp.s(9)
+    sprintf.o                 sprintf.s(9)
+    memcpy.o                  memcpy.s(15)
+    malloc.o                  malloc.s(108)
+    atoi.o                    atoi.s(10)
+    umod.o                    umod.s(9)
+    udiv.o                    udiv.s(9)
+    staxspi.o                 staxspi.s(9)
+    staspidx.o                staspidx.s(9)
+    pushw.o                   pushw.s(9)
+    mulax9.o                  mulax9.s(9)
+    mulax5.o                  mulax5.s(8)
+    mulax3.o                  mulax3.s(8)
+    mod.o                     mod.s(12)
+    ldaxi.o                   ldaxi.s(8)
+    ldai.o                    ldai.s(8)
+    call.o                    call.s(8)
+    gboard.o                  gboard.s(11)
+    comboset.o                comboset.s(11)
+    comborow.o                comborow.s(11)
+    game.o                    game.s(11)
+    net.o                     net.s(11)
+    vset.o                    vset.s(11)
+    strategy.o                strategy.s(11)
+    gboard.o                  gboard.s(11)
+    comboset.o                comboset.s(11)
+    comborow.o                comborow.s(11)
+    game.o                    game.s(11)
+    menu.o                    menu.s(11)
+    credits.o                 credits.s(11)
+    intro.o                   intro.s(11)
+    fadein.o                  fadein.s(24)
+    resident.o                resident.s(11)
+    text.o                    text.s(11)
+    lynx-snd.o                /usr/local/lib/cc65/asminc/zeropage.inc(12)
+    lynxeeprom.o              lynxeeprom.s(49)
+ptr2 (zeropage.o):
+    strlower.o                strlower.s(13)
+    ltoa.o                    ltoa.s(11)
+    _printf.o                 ../../asminc/zeropage.inc(12)
+    udiv32by16r16.o           ../../asminc/zeropage.inc(12)
+    tgi_clippedline.o         ../../asminc/zeropage.inc(12)
+    strcpy.o                  strcpy.s(9)
+    strcmp.o                  strcmp.s(9)
+    memcpy.o                  memcpy.s(15)
+    malloc.o                  malloc.s(108)
+    atoi.o                    atoi.s(10)
+ptr3 (zeropage.o):
+    ltoa.o                    ltoa.s(11)
+    umul16x16r32.o            ../../asminc/zeropage.inc(12)
+    udiv32by16r16.o           ../../asminc/zeropage.inc(12)
+    umul8x16r24.o             ../../asminc/zeropage.inc(12)
+    memcpy.o                  memcpy.s(15)
+    malloc.o                  malloc.s(108)
+ptr4 (zeropage.o):
+    umod.o                    umod.s(9)
+    udiv.o                    udiv.s(9)
+    shelp.o                   shelp.s(12)
+    mul8.o                    mul8.s(10)
+    linc.o                    linc.s(8)
+push0 (pushax.o):
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    credits.o                 credits.s(2392)
+    LynxSD.o                  LynxSD.s(599)
+push1 (push1.o):
+    _printf.o                 _printf.s(11)
+pusha (pusha.o):
+    tgi_init.o                tgi_init.s(11)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    net.o                     net.s(229)
+    net.o                     net.s(229)
+    net.o                     net.s(229)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    intro.o                   intro.s(1009)
+    intro.o                   intro.s(1009)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    text.o                    text.s(476)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+pusha0 (pushax.o):
+    push1.o                   push1.s(8)
+    open.o                    open.s(23)
+    load.o                    load.s(12)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    intro.o                   intro.s(1009)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+pushax (pushax.o):
+    _printf.o                 _printf.s(11)
+    lseek.o                   lseek.s(18)
+    callmain.o                callmain.s(11)
+    tgi_init.o                tgi_init.s(11)
+    read.o                    read.s(17)
+    open.o                    open.s(23)
+    load.o                    load.s(12)
+    pushw.o                   pushw.s(8)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    intro.o                   intro.s(1009)
+    intro.o                   intro.s(1009)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+pusheax (lpush.o):
+    _printf.o                 _printf.s(11)
+    lseek.o                   lseek.s(17)
+    open.o                    open.s(23)
+    menu.o                    menu.s(1739)
+    intro.o                   intro.s(1009)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+pushw (pushw.o):
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    credits.o                 credits.s(2392)
+    resident.o                resident.s(1386)
+pushw0sp (pushwsp.o):
+    vsprintf.o                vsprintf.s(8)
+    gboard.o                  gboard.s(668)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    gboard.o                  gboard.s(668)
+pushwidx (pushw.o):
+    strategy.o                strategy.s(2509)
+pushwysp (pushwsp.o):
+    gboard.o                  gboard.s(668)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    net.o                     net.s(229)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    gboard.o                  gboard.s(668)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    credits.o                 credits.s(2392)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+regbank (zeropage.o):
+    _printf.o                 ../../asminc/zeropage.inc(14)
+regsave (zeropage.o):
+    strategy.o                strategy.s(10)
+    LynxSD.o                  LynxSD.s(10)
+return0 (return0.o):
+    ser-kernel.o              ser-kernel.s(7)
+return1 (return1.o):
+    kbhit.o                   kbhit.s(10)
+ser_get (ser-kernel.o):
+    ser_get.o                 ../../asminc/ser-kernel.inc(140)
+ser_open (ser-kernel.o):
+    ser_open.o                ../../asminc/ser-kernel.inc(138)
+ser_put (ser-kernel.o):
+    ser_put.o                 ../../asminc/ser-kernel.inc(141)
+shlax2 (aslax2.o):
+    comboset.o                comboset.s(822)
+    game.o                    game.s(3879)
+    comboset.o                comboset.s(822)
+    game.o                    game.s(2653)
+shlax3 (aslax3.o):
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+shlax4 (aslax4.o):
+    comboset.o                comboset.s(822)
+    game.o                    game.s(3879)
+    comboset.o                comboset.s(822)
+    game.o                    game.s(2653)
+    resident.o                resident.s(1386)
+shrax1 (shrax1.o):
+    credits.o                 credits.s(2392)
+shrax2 (shrax2.o):
+    intro.o                   intro.s(1009)
+    resident.o                resident.s(1386)
+sp (zeropage.o):
+    _printf.o                 ../../asminc/zeropage.inc(11)
+    lpop.o                    lpop.s(9)
+    land.o                    land.s(9)
+    vsnprintf.o               vsnprintf.s(10)
+    _heap.o                   _heap.s(9)
+    lcmp.o                    lcmp.s(10)
+    ladd.o                    ladd.s(9)
+    sprintf.o                 sprintf.s(9)
+    memcpy.o                  memcpy.s(15)
+    crt0.o                    ../../asminc/zeropage.inc(11)
+    subysp.o                  subysp.s(9)
+    sub.o                     sub.s(9)
+    steaxsp.o                 steaxsp.s(8)
+    staxspi.o                 staxspi.s(9)
+    staxsp.o                  staxsp.s(8)
+    staspidx.o                staspidx.s(9)
+    pushwsp.o                 pushwsp.s(8)
+    pushax.o                  pushax.s(8)
+    pusha.o                   pusha.s(8)
+    popsreg.o                 popsreg.s(9)
+    popa.o                    popa.s(8)
+    or.o                      or.s(9)
+    lpush.o                   lpush.s(12)
+    leaaxsp.o                 leaaxsp.s(8)
+    ldeaxysp.o                ldeaxysp.s(12)
+    ldaxsp.o                  ldaxsp.s(8)
+    incsp2.o                  incsp2.s(8)
+    incsp1.o                  incsp1.s(8)
+    icmp.o                    icmp.s(9)
+    decsp6.o                  decsp6.s(8)
+    decsp5.o                  decsp5.s(8)
+    decsp4.o                  decsp4.s(8)
+    decsp3.o                  decsp3.s(8)
+    decsp2.o                  decsp2.s(8)
+    decsp1.o                  decsp1.s(8)
+    and.o                     and.s(9)
+    addysp.o                  addysp.s(8)
+    addeqsp.o                 addeqsp.s(8)
+    add.o                     add.s(11)
+    gboard.o                  gboard.s(10)
+    comboset.o                comboset.s(10)
+    comborow.o                comborow.s(10)
+    game.o                    game.s(10)
+    net.o                     net.s(10)
+    vset.o                    vset.s(10)
+    strategy.o                strategy.s(10)
+    gboard.o                  gboard.s(10)
+    comboset.o                comboset.s(10)
+    comborow.o                comborow.s(10)
+    game.o                    game.s(10)
+    menu.o                    menu.s(10)
+    credits.o                 credits.s(10)
+    intro.o                   intro.s(10)
+    resident.o                resident.s(10)
+    text.o                    text.s(10)
+    LynxSD.o                  LynxSD.s(10)
+sreg (zeropage.o):
+    ltoa.o                    ltoa.s(11)
+    _printf.o                 ../../asminc/zeropage.inc(11)
+    umul16x16r32.o            ../../asminc/zeropage.inc(11)
+    udiv32by16r16.o           ../../asminc/zeropage.inc(11)
+    lpop.o                    lpop.s(9)
+    lasr.o                    lasr.s(16)
+    land.o                    land.s(9)
+    tgi_clippedline.o         ../../asminc/zeropage.inc(11)
+    umul8x16r24.o             ../../asminc/zeropage.inc(11)
+    lneg.o                    lneg.s(11)
+    lcmp.o                    lcmp.s(10)
+    ladd.o                    ladd.s(9)
+    axlong.o                  axlong.s(8)
+    atoi.o                    atoi.s(10)
+    open.o                    open.s(18)
+    clock.o                   clock.s(19)
+    udiv.o                    udiv.s(9)
+    steaxsp.o                 steaxsp.s(8)
+    shelp.o                   shelp.s(12)
+    popsreg.o                 popsreg.s(9)
+    mul8.o                    mul8.s(10)
+    ltest.o                   ltest.s(8)
+    lpush.o                   lpush.s(12)
+    linc.o                    linc.s(8)
+    ldeaxysp.o                ldeaxysp.s(12)
+    icmp.o                    icmp.s(9)
+    div.o                     div.s(12)
+    gboard.o                  gboard.s(10)
+    comborow.o                comborow.s(10)
+    vset.o                    vset.s(10)
+    gboard.o                  gboard.s(10)
+    comborow.o                comborow.s(10)
+    resident.o                resident.s(10)
+staspidx (staspidx.o):
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    LynxSD.o                  LynxSD.s(599)
+stax0sp (staxsp.o):
+    open.o                    open.s(24)
+    gboard.o                  gboard.s(668)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    gboard.o                  gboard.s(668)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    intro.o                   intro.s(1009)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+staxspidx (staxspi.o):
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    resident.o                resident.s(1386)
+staxysp (staxsp.o):
+    vsprintf.o                vsprintf.s(8)
+    game.o                    game.s(3879)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    game.o                    game.s(2653)
+    credits.o                 credits.s(2392)
+    intro.o                   intro.s(1009)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+    LynxSD.o                  LynxSD.s(599)
+steaxysp (steaxsp.o):
+    open.o                    open.s(24)
+    menu.o                    menu.s(1739)
+    intro.o                   intro.s(1009)
+subysp (subysp.o):
+    comboset.o                comboset.s(822)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    comboset.o                comboset.s(822)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    intro.o                   intro.s(1009)
+    resident.o                resident.s(1386)
+tgi_clear (tgi-kernel.o):
+    tgi_clear.o               ../../asminc/tgi-kernel.inc(156)
+tgi_clip_x1 (tgi_outcode.o):
+    tgi_clippedline.o         ../../asminc/tgi-kernel.inc(142)
+    tgi_line.o                ../../asminc/tgi-kernel.inc(142)
+tgi_clip_x2 (tgi_outcode.o):
+    tgi_clippedline.o         ../../asminc/tgi-kernel.inc(144)
+    tgi_linepop.o             ../../asminc/tgi-kernel.inc(144)
+tgi_clip_y1 (tgi_outcode.o):
+    tgi_clippedline.o         ../../asminc/tgi-kernel.inc(143)
+    tgi_line.o                ../../asminc/tgi-kernel.inc(143)
+tgi_clip_y2 (tgi_outcode.o):
+    tgi_clippedline.o         ../../asminc/tgi-kernel.inc(145)
+    tgi_linepop.o             ../../asminc/tgi-kernel.inc(145)
+tgi_clippedline (tgi_clippedline.o):
+    tgi_line.o                ../../asminc/tgi-kernel.inc(174)
+tgi_color_white (tgi_colors.o):
+    tgi_init.o                ../../asminc/tgi-kernel.inc(110)
+tgi_control (tgi-kernel.o):
+    tgi_ioctl.o               ../../asminc/tgi-kernel.inc(155)
+tgi_done (tgi-kernel.o):
+    tgi_done.o                ../../asminc/tgi-kernel.inc(153)
+tgi_getdefpalette (tgi-kernel.o):
+    tgi_init.o                ../../asminc/tgi-kernel.inc(162)
+tgi_geterror (tgi-kernel.o):
+    tgi_init.o                ../../asminc/tgi-kernel.inc(154)
+tgi_getpalette (tgi-kernel.o):
+    tgi_getpalette.o          ../../asminc/tgi-kernel.inc(161)
+tgi_init (tgi-kernel.o):
+    tgi_init.o                ../../asminc/tgi-kernel.inc(152)
+tgi_inv_arg (tgi-kernel.o):
+    tgi_setcolor.o            ../../asminc/tgi-kernel.inc(178)
+tgi_line (tgi-kernel.o):
+    tgi_clippedline.o         ../../asminc/tgi-kernel.inc(165)
+tgi_linepop (tgi_linepop.o):
+    tgi_line.o                ../../asminc/tgi-kernel.inc(180)
+tgi_outcode (tgi_outcode.o):
+    tgi_clippedline.o         ../../asminc/tgi-kernel.inc(181)
+tgi_setcolor (tgi-kernel.o):
+    tgi_setcolor.o            ../../asminc/tgi-kernel.inc(159)
+tgi_setdrawpage (tgi-kernel.o):
+    tgi_init.o                ../../asminc/tgi-kernel.inc(158)
+tgi_setpalette (tgi-kernel.o):
+    tgi_setpalette.o          ../../asminc/tgi-kernel.inc(160)
+    tgi_init.o                ../../asminc/tgi-kernel.inc(160)
+tgi_setviewpage (tgi-kernel.o):
+    tgi_init.o                ../../asminc/tgi-kernel.inc(157)
+tmp1 (zeropage.o):
+    ltoa.o                    ltoa.s(11)
+    _printf.o                 ../../asminc/zeropage.inc(13)
+    lasr.o                    lasr.s(16)
+    land.o                    land.s(9)
+    tgi_clippedline.o         ../../asminc/zeropage.inc(13)
+    ladd.o                    ladd.s(9)
+    tgi_outcode.o             ../../asminc/zeropage.inc(13)
+    atoi.o                    atoi.s(10)
+    staxspi.o                 staxspi.s(9)
+    staspidx.o                staspidx.s(9)
+    shrax2.o                  shrax2.s(8)
+    shrax1.o                  shrax1.s(8)
+    shelp.o                   shelp.s(12)
+    or.o                      or.s(9)
+    mod.o                     mod.s(12)
+    ltest.o                   ltest.s(8)
+    incaxy.o                  incaxy.s(8)
+    div.o                     div.s(12)
+    decaxy.o                  decaxy.s(8)
+    asrax4.o                  asrax4.s(9)
+    asrax2.o                  asrax2.s(8)
+    aslax4.o                  aslax4.s(8)
+    aslax3.o                  aslax3.s(8)
+    aslax2.o                  aslax2.s(8)
+    aslax1.o                  aslax1.s(8)
+    comboset.o                comboset.s(11)
+    comborow.o                comborow.s(11)
+    game.o                    game.s(11)
+    strategy.o                strategy.s(11)
+    comboset.o                comboset.s(11)
+    comborow.o                comborow.s(11)
+    game.o                    game.s(11)
+    menu.o                    menu.s(11)
+    credits.o                 credits.s(11)
+    intro.o                   intro.s(11)
+    fadein.o                  fadein.s(24)
+tmp2 (zeropage.o):
+    shelp.o                   shelp.s(12)
+    div.o                     div.s(12)
+tmp3 (zeropage.o):
+    open.o                    open.s(18)
+tosadda0 (add.o):
+    net.o                     net.s(229)
+tosaddax (add.o):
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    comboset.o                comboset.s(822)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+tosaddeax (ladd.o):
+    open.o                    open.s(24)
+tosanda0 (and.o):
+    game.o                    game.s(3879)
+    game.o                    game.s(2653)
+tosandax (and.o):
+    menu.o                    menu.s(1739)
+tosandeax (land.o):
+    lseek.o                   lseek.s(19)
+tosasreax (lasr.o):
+    lseek.o                   lseek.s(20)
+tosdiva0 (div.o):
+    game.o                    game.s(3879)
+tosicmp (icmp.o):
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    comboset.o                comboset.s(822)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+tosicmp0 (icmp.o):
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(3879)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+toslcmp (lcmp.o):
+    lult.o                    lult.s(8)
+tosmoda0 (mod.o):
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    game.o                    game.s(3879)
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+    game.o                    game.s(2653)
+tosmula0 (mul8.o):
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(2653)
+    credits.o                 credits.s(2392)
+tosorax (or.o):
+    game.o                    game.s(3879)
+tossuba0 (sub.o):
+    credits.o                 credits.s(2392)
+    intro.o                   intro.s(1009)
+tossubax (sub.o):
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    vset.o                    vset.s(1092)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    strategy.o                strategy.s(2509)
+    comborow.o                comborow.s(562)
+    comborow.o                comborow.s(562)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+tosudiva0 (udiv.o):
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+tosulteax (lult.o):
+    menu.o                    menu.s(1739)
+    intro.o                   intro.s(1009)
+tosumoda0 (umod.o):
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    resident.o                resident.s(1386)
+tosumodax (umod.o):
+    vset.o                    vset.s(1092)
+    menu.o                    menu.s(1739)
+tosumula0 (mul8.o):
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(3879)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    game.o                    game.s(2653)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    menu.o                    menu.s(1739)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    credits.o                 credits.s(2392)
+    resident.o                resident.s(1386)
+    resident.o                resident.s(1386)
+udiv16 (udiv.o):
+    umod.o                    umod.s(8)
+    mod.o                     mod.s(11)
+    div.o                     div.s(11)
+udiv32by16r16 (udiv32by16r16.o):
+    tgi_clippedline.o         tgi_clippedline.s(8)
+umul16x16r32 (umul16x16r32.o):
+    tgi_clippedline.o         tgi_clippedline.s(8)
+umul8x16r24 (umul8x16r24.o):
+    tgi_settextstyle.o        tgi_settextstyle.s(9)
+utsteax (ltest.o):
+    gboard.o                  gboard.s(668)
+    gboard.o                  gboard.s(668)
+vsnprintf (vsnprintf.o):
+    vsprintf.o                vsprintf.s(9)
+zerobss (zerobss.o):
+    crt0.o                    crt0.s(23)
+

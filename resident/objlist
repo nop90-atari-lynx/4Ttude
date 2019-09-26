@@ -1,0 +1,7 @@
+../resident/LynxSD.o
+../resident/lynxeeprom.o
+../resident/lynx-snd.o
+../resident/playpcm.o
+../resident/font.o
+../resident/text.o
+../resident/resident.o

@@ -1,0 +1,83 @@
+4Ttude, a 3D 4x4x4 Tic-Tac-Toe Game
+
+From Wikipedia:
+3D Tic-Tac-Toe is similar in concept to traditional tic-tac-toe but is played in a cubical array of cells, usually 4x4x4. Players take turns placing their markers in blank cells in the array. The first player to achieve four of their own markers in a row wins. The winning row can be horizontal, vertical, or diagonal on a single board as in regular tic-tac-toe, or vertically in a column, or a diagonal line through four boards. 
+
+When it's your turn move on the board with the directional pad and place your move with the A key, then wait for the apponent move.
+
+Making 4 in a row isn't simple, because there are only 72 possible winning lines, and if two players place at least one mark on one of this position, it can't be used anymore to win the game. In fact the first defence strategy to learn in this game is to block your opponent in making a row.
+
+To master the game you'll have to learn develop a board situation where placing a mark on the board you create several (two or more) opportunities to make 4 in a row at the next move, so that the opponent can block only one. 
+
+This situation has a name in japanese board games: ATARI.  
+
+4TTude can be played agaist the Lynx CPU or versus another player, playing on the same Lynx alternating the moves or with two Lynx connected with a comlynx cable.
+
+Games can be ranked or unranked (training games).
+
+RANKED GAME
+In ranked games the ranks of the two players can change on the result of the game. 4Ttude has 3 saveslots, every saveslot can be used to track the progresses of a player.
+
+Selecting for the first time an unused saveslot, the player rank starts from 0, but can rise up to 10 winning against stronger players.
+
+NOTE:
+Data in the saveslots is maintained when the game is switched off if the game is played on a cart with an internal 128 bit EEPROM, on a HQ SD cart with a 4ttude.sav file of 128 bytes in the /saves directory, or with an emulator with EEPROM emulation.
+To delete all the content of the saveslots pause the game (the screeen will be grayed) and press at the same time Opt1 and Opt2.
+
+When you play agaist the CPU, the CPU rank is its strength level. By default the CPU strength is set to your rank  1 (or at 10 if it's your rank, since 10 is the max rank), but you can change it before starting the game.
+Start learning the game with a CPU with a low level, because it's very hard to beat it when its strength raises.
+
+At the end of a game your new rank and the trend of your rank in the last games are displayed.
+
+After a game against the CPU, you can decide to play another game with the same CPU strength, or adjust it to your new rank.
+
+Playing against another player using a comlinx connection is the same as playing against the CPU, but obviusly you can't decide your opponent's rank.    
+
+UNRANKED GAME
+Unranked games are useful to train your skill against the CPU or against another player.
+
+In unranked games the result of the game is not saved in the savslots, but you can use two training tools when you play against the CPU: you can undo moves and you can ask for hints to the CPU.
+
+During your turn press B to use one of these tools. Beware that asking an hint to CPU, you'll have it according to the selected CPU strength, so don't expect anything useful from a CPU playing at strength 0. 
+
+GAME OPTIONS
+
+From the menu screen you can open the option menu decide your favourite configuration for the game.
+
+You can have at startup:
+- Music ON or OFF
+- Alternate views of the board (side wiews, slices and diafonals) ON or OFF
+- A mark on the last played move of your opponent ON or OFF
+
+Exiting the Options menu the configuration is saved on the internal EEPROM of the cart.
+
+During the game you can change the configuration using Opt 1 to switch ON / OFF the aternate wiew and the mark on the last opponet move. With Opt 2 you can rotate game musics or mute it.
+
+This changes at the game options are not saved in the internale eeprom, but if you access again the Options menu, the current state of the options is displayed, and exiting the menu it's saved on the EEPROM. 
+
+GAME CONTROLS
+
+DIRECTIONS KEYS: Navigate menus or move on the game board
+A KEY: select an option on the menus or place you move during the game
+B KEY: access training tools during an unranked game vs the CPU
+PAUSE: pause / unpause the game
+OPT1: rotate board visualization options (only during a game)
+OPT2: rotate musics (during game) and mute unmute it
+PAUSE OPT1: Back to game menu
+PAUSE OPT2: Rotate the screen
+OPT1 OPT2: clears the internal EEPROM (only when the game is paused)
+
+CREDITS:
+
+Gisberto Rondinella (Nop90) - Atari Lynx coding
+Martial Daviaud (MARSS) - GFX
+Dan Gisselquist, Ph.D. - TTTT game engine (source released as GPL v3)
+Musics adapted and converted to Chipper format from open source MOD tunes released as Public Domain:
+ - Moongazer by Dr. Awesome
+ - Water resist by ACE of THE ZYNAPS
+ - Rainbow by Baroque
+ - Volcano by leon / excess
+
+LICENCE:
+4Ttude is released as a freeware digital rom. The game can be freely distributed on the web or on phisical support (i.e. on a CD, DV or SD cart) as part of a collection of games in digital form.  
+The distribution as a phisical Atari Lynx homebrew cart is reserved.
